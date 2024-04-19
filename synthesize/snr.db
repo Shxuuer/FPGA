@@ -39,7 +39,7 @@
         <row>
             <data>voice_loop_test</data>
             <data>228</data>
-            <data>196</data>
+            <data>180</data>
             <data>0</data>
             <data>0</data>
             <data>0.5</data>
@@ -283,7 +283,7 @@
             <row>
                 <data>i2s_loop</data>
                 <data>1</data>
-                <data>32</data>
+                <data>16</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -813,7 +813,7 @@
             <data>1.000MHz</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>73</data>
+            <data>56</data>
             <data>0</data>
             <data/>
             <data>{ es0_dsclk }</data>
@@ -834,15 +834,15 @@
         </row>
         <row>
             <data>voice_loop_test|es1_dsclk</data>
-            <data>373.413MHz</data>
+            <data>378.501MHz</data>
             <data>1.000MHz</data>
-            <data>498.661</data>
+            <data>498.679</data>
         </row>
         <row>
             <data>voice_loop_test|es0_dsclk</data>
-            <data>373.692MHz</data>
+            <data>374.392MHz</data>
             <data>1.000MHz</data>
-            <data>997.324</data>
+            <data>997.329</data>
         </row>
     </table>
     <table id="synthesize_report_clock_interaction" title="Clock Interaction" column_number="12">
@@ -879,11 +879,11 @@
             <data>voice_loop_test|es1_dsclk</data>
             <data>YES</data>
             <data>Timed</data>
-            <data>498.661</data>
+            <data>498.679</data>
             <data>0.000</data>
             <data>0</data>
             <data>17</data>
-            <data>1.073</data>
+            <data>1.029</data>
             <data>0.000</data>
             <data>0</data>
             <data>17</data>
@@ -907,14 +907,14 @@
             <data>voice_loop_test|es0_dsclk</data>
             <data>YES</data>
             <data>Timed</data>
-            <data>997.324</data>
+            <data>997.329</data>
             <data>0.000</data>
             <data>0</data>
-            <data>135</data>
+            <data>102</data>
             <data>0.740</data>
             <data>0.000</data>
             <data>0</data>
-            <data>135</data>
+            <data>102</data>
         </row>
     </table>
     <table id="synthesize_report_clock_network" title="Clock Network" column_number="1" tree="">
@@ -922,13 +922,13 @@
         <row>
             <data>voice_loop_test|sys_clk (1.00MHZ) (drive 0 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
-                <data file_id="../source/voice_loop.v" line_number="8">sys_clk (0.000, 0.000, 0.000, 0.000)</data>
+                <data file_id="../source/voice_loop.v" line_number="5">sys_clk (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
-                    <data file_id="../source/voice_loop.v" line_number="8">sys_clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <data file_id="../source/voice_loop.v" line_number="5">sys_clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="8">sys_clk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
+                        <data file_id="../source/voice_loop.v" line_number="5">sys_clk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
                         <row>
-                            <data file_id="../source/voice_loop.v" line_number="8">nt_sys_clk (net)</data>
+                            <data file_id="../source/voice_loop.v" line_number="5">nt_sys_clk (net)</data>
                             <row>
                                 <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKIN1 (2.302, 2.302, 2.403, 2.403)</data>
                             </row>
@@ -942,7 +942,7 @@
             <row>
                 <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKOUT0 (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
-                    <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk (net)</data>
+                    <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk (net)</data>
                     <row>
                         <data file_id="../source/ES7243E_reg_config.v" line_number="37">ES7243E_reg_config/clock_cnt[0]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
@@ -959,61 +959,61 @@
                         <data file_id="../source/ES7243E_reg_config.v" line_number="37">ES7243E_reg_config/clock_i2c/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[1]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[1]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[2]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[2]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[5]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[5]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[6]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[6]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[7]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[7]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[8]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[8]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[9]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[9]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[10]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[10]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[11]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[11]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[12]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[12]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[13]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[13]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[14]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[14]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[15]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[15]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[16]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[16]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[17]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[17]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[18]/CLK (0.730, 0.730, 0.730, 0.730)</data>
+                        <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[18]/CLK (0.730, 0.730, 0.730, 0.730)</data>
                     </row>
                 </row>
             </row>
@@ -1021,13 +1021,13 @@
         <row>
             <data>voice_loop_test|es1_dsclk (1.00MHZ) (drive 18 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
-                <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (0.000, 0.000, 0.000, 0.000)</data>
+                <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
-                    <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
+                        <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
                         <row>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk (net)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk (net)</data>
                             <row>
                                 <data object_valid="true">ES8156_i2s_tx/N13/I (1.211, 1.211, 1.312, 1.312)</data>
                                 <row>
@@ -1097,15 +1097,15 @@
             </row>
         </row>
         <row>
-            <data>voice_loop_test|es0_dsclk (1.00MHZ) (drive 73 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <data>voice_loop_test|es0_dsclk (1.00MHZ) (drive 56 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
-                <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (0.000, 0.000, 0.000, 0.000)</data>
+                <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
-                    <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
                     <row>
-                        <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
+                        <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (1.211, 1.211, 1.312, 1.312)</data>
                         <row>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk (net)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk (net)</data>
                             <row>
                                 <data file_id="../source/pgr_i2s_rx.v" line_number="39">ES7243_i2s_rx/cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
@@ -1171,9 +1171,6 @@
                             </row>
                             <row>
                                 <data file_id="../source/pgr_i2s_rx.v" line_number="79">ES7243_i2s_rx/l_vld/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/pgr_i2s_rx.v" line_number="69">ES7243_i2s_rx/r_vld/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
                                 <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
@@ -1277,54 +1274,6 @@
                             <row>
                                 <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[15]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[9]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[10]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[11]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[12]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[13]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[14]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
-                            <row>
-                                <data file_id="../source/i2s_loop.v" line_number="29">i2s_loop/rdata[15]/CLK (4.415, 4.415, 4.516, 4.516)</data>
-                            </row>
                         </row>
                     </row>
                 </row>
@@ -1343,7 +1292,7 @@
         <row>
             <data>voice_loop_test|es1_dsclk</data>
             <data>voice_loop_test|es1_dsclk</data>
-            <data>498.661</data>
+            <data>498.679</data>
             <data>0.000</data>
             <data>0</data>
             <data>17</data>
@@ -1359,10 +1308,10 @@
         <row>
             <data>voice_loop_test|es0_dsclk</data>
             <data>voice_loop_test|es0_dsclk</data>
-            <data>997.324</data>
+            <data>997.329</data>
             <data>0.000</data>
             <data>0</data>
-            <data>135</data>
+            <data>102</data>
         </row>
     </table>
     <table id="synthesize_report_timing_hold" title="Hold Summary" column_number="6">
@@ -1380,12 +1329,12 @@
             <data>0.740</data>
             <data>0.000</data>
             <data>0</data>
-            <data>135</data>
+            <data>102</data>
         </row>
         <row>
             <data>voice_loop_test|es1_dsclk</data>
             <data>voice_loop_test|es1_dsclk</data>
-            <data>1.073</data>
+            <data>1.029</data>
             <data>0.000</data>
             <data>0</data>
             <data>17</data>
@@ -1426,7 +1375,7 @@
             <data>499.380</data>
             <data>0.000</data>
             <data>0</data>
-            <data>73</data>
+            <data>56</data>
         </row>
     </table>
     <table id="synthesize_report_timing_path_setup" title="Setup Path Summary" column_number="17">
@@ -1450,11 +1399,11 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>498.661</data>
+            <data>498.679</data>
             <data>1</data>
-            <data>17</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D</data>
+            <data>16</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[1]/CLK</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/D</data>
             <data/>
             <data>voice_loop_test|es1_dsclk</data>
             <data>voice_loop_test|es1_dsclk</data>
@@ -1464,13 +1413,13 @@
             <data>4.516</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>1.424</data>
-            <data>0.598 (42.0%)</data>
-            <data>0.826 (58.0%)</data>
+            <data>1.406</data>
+            <data>0.587 (41.7%)</data>
+            <data>0.819 (58.3%)</data>
             <general_container>
-                <data>Path #1: setup slack is 498.661(MET)</data>
+                <data>Path #1: setup slack is 498.679(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.839" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.821" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1493,7 +1442,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -1501,7 +1450,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1509,7 +1458,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -1517,7 +1466,7 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -1525,7 +1474,261 @@
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[1]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.329</data>
+                            <data>4.744</data>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[1]/Q (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=16)</data>
+                            <data>0.819</data>
+                            <data>5.563</data>
+                            <data> </data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="26">ES8156_i2s_tx/ws_d [1]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[0]_1/I2 (GTP_LUT3)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.258</data>
+                            <data>5.821</data>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[0]_1/Z (GTP_LUT3)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.821</data>
+                            <data> </data>
+                            <data object_valid="true">ES8156_i2s_tx/N15 [0]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/D (GTP_DFF_C)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 504.500" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es1_dsclk (falling edge)</data>
+                            <data/>
+                            <data>500.000</data>
+                            <data>500.000</data>
+                            <data>f</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es1_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>500.000</data>
+                            <data>f</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>500.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.312</data>
+                            <data>501.312</data>
+                            <data>f</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>0.000</data>
+                            <data>501.312</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">ES8156_i2s_tx/N13/I (GTP_INV)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>0.000</data>
+                            <data>501.312</data>
+                            <data>r</data>
+                            <data object_valid="true">ES8156_i2s_tx/N13/Z (GTP_INV)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=16)</data>
+                            <data>3.204</data>
+                            <data>504.516</data>
+                            <data/>
+                            <data object_valid="true">ES8156_i2s_tx/N13</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>504.516</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>-0.050</data>
+                            <data>504.466</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Setup time</data>
+                            <data/>
+                            <data>0.034</data>
+                            <data>504.500</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
+            <data>498.679</data>
+            <data>1</data>
+            <data>17</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D</data>
+            <data/>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>rise-fall</data>
+            <data>0.101</data>
+            <data>4.415</data>
+            <data>4.516</data>
+            <data>0.000</data>
+            <data>500.000</data>
+            <data>1.406</data>
+            <data>0.580 (41.3%)</data>
+            <data>0.826 (58.7%)</data>
+            <general_container>
+                <data>Path #2: setup slack is 498.679(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 5.821" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es1_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es1_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1557,21 +1760,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I3 (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[1]/I2 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.269</data>
-                            <data>5.839</data>
+                            <data>0.251</data>
+                            <data>5.821</data>
                             <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/Z (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[1]/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.839</data>
+                            <data>5.821</data>
                             <data> </data>
                             <data object_valid="true">ES8156_i2s_tx/N15 [1]</data>
                         </row>
@@ -1609,7 +1812,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -1617,7 +1820,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1625,7 +1828,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -1633,7 +1836,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -1641,7 +1844,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1704,7 +1907,7 @@
             </general_container>
         </row>
         <row>
-            <data>498.661</data>
+            <data>498.679</data>
             <data>1</data>
             <data>17</data>
             <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
@@ -1718,13 +1921,13 @@
             <data>4.516</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>1.424</data>
-            <data>0.598 (42.0%)</data>
-            <data>0.826 (58.0%)</data>
+            <data>1.406</data>
+            <data>0.580 (41.3%)</data>
+            <data>0.826 (58.7%)</data>
             <general_container>
-                <data>Path #2: setup slack is 498.661(MET)</data>
+                <data>Path #3: setup slack is 498.679(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.839" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.821" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1747,7 +1950,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -1755,7 +1958,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1763,7 +1966,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -1771,7 +1974,7 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -1779,7 +1982,7 @@
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1811,21 +2014,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I3 (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[2]/I2 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.269</data>
-                            <data>5.839</data>
+                            <data>0.251</data>
+                            <data>5.821</data>
                             <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/Z (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[2]/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>5.839</data>
+                            <data>5.821</data>
                             <data> </data>
                             <data object_valid="true">ES8156_i2s_tx/N15 [2]</data>
                         </row>
@@ -1863,7 +2066,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -1871,7 +2074,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1879,7 +2082,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -1887,7 +2090,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -1895,7 +2098,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -1958,265 +2161,11 @@
             </general_container>
         </row>
         <row>
-            <data>498.661</data>
-            <data>1</data>
-            <data>17</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[3]/D</data>
-            <data/>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>rise-fall</data>
-            <data>0.101</data>
-            <data>4.415</data>
-            <data>4.516</data>
-            <data>0.000</data>
-            <data>500.000</data>
-            <data>1.424</data>
-            <data>0.598 (42.0%)</data>
-            <data>0.826 (58.0%)</data>
-            <general_container>
-                <data>Path #3: setup slack is 498.661(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 5.839" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es1_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es1_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=3)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.329</data>
-                            <data>4.744</data>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/Q (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.826</data>
-                            <data>5.570</data>
-                            <data> </data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="26">ES8156_i2s_tx/ws_d [0]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I3 (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.269</data>
-                            <data>5.839</data>
-                            <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/Z (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.839</data>
-                            <data> </data>
-                            <data object_valid="true">ES8156_i2s_tx/N15 [3]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[3]/D (GTP_DFF_C)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 504.500" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es1_dsclk (falling edge)</data>
-                            <data/>
-                            <data>500.000</data>
-                            <data>500.000</data>
-                            <data>f</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es1_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>500.000</data>
-                            <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>500.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.312</data>
-                            <data>501.312</data>
-                            <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=3)</data>
-                            <data>0.000</data>
-                            <data>501.312</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N13/I (GTP_INV)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>0.000</data>
-                            <data>501.312</data>
-                            <data>r</data>
-                            <data object_valid="true">ES8156_i2s_tx/N13/Z (GTP_INV)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=16)</data>
-                            <data>3.204</data>
-                            <data>504.516</data>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N13</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[3]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>504.516</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>-0.050</data>
-                            <data>504.466</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Setup time</data>
-                            <data/>
-                            <data>0.034</data>
-                            <data>504.500</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
             <data>996.257</data>
             <data>4</data>
             <data>4</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/CLK</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/D</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/CLK</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/D</data>
             <data/>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
@@ -2263,7 +2212,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2271,7 +2220,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2279,7 +2228,7 @@
                             <data>0.329</data>
                             <data>1.059</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/Q (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/Q (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data/>
@@ -2287,7 +2236,7 @@
                             <data>0.641</data>
                             <data>1.700</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="83">rstn_1ms[0]</data>
+                            <data file_id="../source/voice_loop.v" line_number="80">rstn_1ms[0]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2311,7 +2260,7 @@
                             <data>0.464</data>
                             <data>2.441</data>
                             <data> </data>
-                            <data object_valid="true">_N1254</data>
+                            <data object_valid="true">_N1188</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2335,7 +2284,7 @@
                             <data>0.802</data>
                             <data>3.523</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="39">rstn_out</data>
+                            <data file_id="../source/voice_loop.v" line_number="36">rstn_out</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2367,7 +2316,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="84">N96/I1 (GTP_LUT2)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">N96/I1 (GTP_LUT2)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2375,7 +2324,7 @@
                             <data>0.185</data>
                             <data>4.357</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">N96/Z (GTP_LUT2)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">N96/Z (GTP_LUT2)</data>
                         </row>
                         <row>
                             <data/>
@@ -2391,7 +2340,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/D (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/D (GTP_DFF_R)</data>
                         </row>
                     </table>
                 </table_container>
@@ -2427,7 +2376,7 @@
                             <data>0.730</data>
                             <data>1000.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2435,7 +2384,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[0]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[0]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -2466,9 +2415,9 @@
             </general_container>
         </row>
         <row>
-            <data>997.324</data>
+            <data>997.329</data>
             <data>1</data>
-            <data>24</data>
+            <data>23</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="29">ES7243_i2s_rx/ws_d[0]/CLK</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CE</data>
             <data/>
@@ -2480,13 +2429,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>2.084</data>
-            <data>0.544 (26.1%)</data>
-            <data>1.540 (73.9%)</data>
+            <data>2.079</data>
+            <data>0.544 (26.2%)</data>
+            <data>1.535 (73.8%)</data>
             <general_container>
-                <data>Path #5: setup slack is 997.324(MET)</data>
+                <data>Path #5: setup slack is 997.329(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 6.499" column_number="6">
+                    <table id="arrival" title="Data arrival time is 6.494" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2509,7 +2458,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2517,7 +2466,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2525,7 +2474,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2533,15 +2482,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2561,9 +2510,9 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=24)</data>
-                            <data>0.870</data>
-                            <data>5.614</data>
+                            <data>net (fanout=23)</data>
+                            <data>0.865</data>
+                            <data>5.609</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="25">ES7243_i2s_rx/ws_d [0]</data>
                         </row>
@@ -2579,7 +2528,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.215</data>
-                            <data>5.829</data>
+                            <data>5.824</data>
                             <data>f</data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/Z (GTP_LUT2)</data>
                         </row>
@@ -2587,7 +2536,7 @@
                             <data/>
                             <data>net (fanout=17)</data>
                             <data>0.670</data>
-                            <data>6.499</data>
+                            <data>6.494</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="26">ES7243_i2s_rx/ws_e</data>
                         </row>
@@ -2625,7 +2574,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2633,7 +2582,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2641,7 +2590,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2649,15 +2598,15 @@
                             <data>1.211</data>
                             <data>1001.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2696,9 +2645,9 @@
             </general_container>
         </row>
         <row>
-            <data>997.324</data>
+            <data>997.329</data>
             <data>1</data>
-            <data>24</data>
+            <data>23</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="29">ES7243_i2s_rx/ws_d[0]/CLK</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CE</data>
             <data/>
@@ -2710,13 +2659,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>2.084</data>
-            <data>0.544 (26.1%)</data>
-            <data>1.540 (73.9%)</data>
+            <data>2.079</data>
+            <data>0.544 (26.2%)</data>
+            <data>1.535 (73.8%)</data>
             <general_container>
-                <data>Path #6: setup slack is 997.324(MET)</data>
+                <data>Path #6: setup slack is 997.329(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 6.499" column_number="6">
+                    <table id="arrival" title="Data arrival time is 6.494" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2739,7 +2688,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2747,7 +2696,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2755,7 +2704,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2763,15 +2712,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2791,9 +2740,9 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=24)</data>
-                            <data>0.870</data>
-                            <data>5.614</data>
+                            <data>net (fanout=23)</data>
+                            <data>0.865</data>
+                            <data>5.609</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="25">ES7243_i2s_rx/ws_d [0]</data>
                         </row>
@@ -2809,7 +2758,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.215</data>
-                            <data>5.829</data>
+                            <data>5.824</data>
                             <data>f</data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/Z (GTP_LUT2)</data>
                         </row>
@@ -2817,7 +2766,7 @@
                             <data/>
                             <data>net (fanout=17)</data>
                             <data>0.670</data>
-                            <data>6.499</data>
+                            <data>6.494</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="26">ES7243_i2s_rx/ws_e</data>
                         </row>
@@ -2855,7 +2804,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2863,7 +2812,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2871,7 +2820,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2879,15 +2828,15 @@
                             <data>1.211</data>
                             <data>1001.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2926,9 +2875,9 @@
             </general_container>
         </row>
         <row>
-            <data>997.324</data>
+            <data>997.329</data>
             <data>1</data>
-            <data>24</data>
+            <data>23</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="29">ES7243_i2s_rx/ws_d[0]/CLK</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CE</data>
             <data/>
@@ -2940,13 +2889,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>2.084</data>
-            <data>0.544 (26.1%)</data>
-            <data>1.540 (73.9%)</data>
+            <data>2.079</data>
+            <data>0.544 (26.2%)</data>
+            <data>1.535 (73.8%)</data>
             <general_container>
-                <data>Path #7: setup slack is 997.324(MET)</data>
+                <data>Path #7: setup slack is 997.329(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 6.499" column_number="6">
+                    <table id="arrival" title="Data arrival time is 6.494" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2969,7 +2918,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -2977,7 +2926,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -2985,7 +2934,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -2993,15 +2942,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3021,9 +2970,9 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=24)</data>
-                            <data>0.870</data>
-                            <data>5.614</data>
+                            <data>net (fanout=23)</data>
+                            <data>0.865</data>
+                            <data>5.609</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="25">ES7243_i2s_rx/ws_d [0]</data>
                         </row>
@@ -3039,7 +2988,7 @@
                             <data> </data>
                             <data>td</data>
                             <data>0.215</data>
-                            <data>5.829</data>
+                            <data>5.824</data>
                             <data>f</data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/Z (GTP_LUT2)</data>
                         </row>
@@ -3047,7 +2996,7 @@
                             <data/>
                             <data>net (fanout=17)</data>
                             <data>0.670</data>
-                            <data>6.499</data>
+                            <data>6.494</data>
                             <data> </data>
                             <data file_id="../source/pgr_i2s_rx.v" line_number="26">ES7243_i2s_rx/ws_e</data>
                         </row>
@@ -3085,7 +3034,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3093,7 +3042,7 @@
                             <data>0.000</data>
                             <data>1000.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3101,7 +3050,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3109,15 +3058,15 @@
                             <data>1.211</data>
                             <data>1001.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3207,7 +3156,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3299,7 +3248,7 @@
                             <data>0.730</data>
                             <data>1000.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3389,7 +3338,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3481,7 +3430,7 @@
                             <data>0.730</data>
                             <data>1000.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3584,7 +3533,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3592,7 +3541,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3600,7 +3549,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3608,15 +3557,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3676,7 +3625,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3684,7 +3633,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3692,7 +3641,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3700,15 +3649,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3747,11 +3696,11 @@
             </general_container>
         </row>
         <row>
-            <data>0.829</data>
+            <data>0.740</data>
             <data>0</data>
-            <data>2</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/D</data>
+            <data>1</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CLK</data>
+            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[0]/D</data>
             <data/>
             <data>voice_loop_test|es0_dsclk</data>
             <data>voice_loop_test|es0_dsclk</data>
@@ -3761,13 +3710,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>0.876</data>
-            <data>0.323 (36.9%)</data>
-            <data>0.553 (63.1%)</data>
+            <data>0.787</data>
+            <data>0.323 (41.0%)</data>
+            <data>0.464 (59.0%)</data>
             <general_container>
-                <data>Path #2: hold slack is 0.829(MET)</data>
+                <data>Path #2: hold slack is 0.740(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.291" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.202" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -3790,7 +3739,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -3798,7 +3747,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3806,99 +3755,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=73)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[0]/CLK (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.323</data>
-                            <data>4.738</data>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[0]/Q (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.553</data>
-                            <data>5.291</data>
-                            <data> </data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="21">ES7243_i2s_rx/sr [0]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/D (GTP_DFF_CE)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 4.462" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es0_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -3906,15 +3763,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -3925,134 +3782,20 @@
                             <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Hold time</data>
-                            <data/>
-                            <data>0.047</data>
-                            <data>4.462</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>0.829</data>
-            <data>0</data>
-            <data>2</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D</data>
-            <data/>
-            <data>voice_loop_test|es0_dsclk</data>
-            <data>voice_loop_test|es0_dsclk</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>4.415</data>
-            <data>4.415</data>
-            <data>0.000</data>
-            <data>0.000</data>
-            <data>0.876</data>
-            <data>0.323 (36.9%)</data>
-            <data>0.553 (63.1%)</data>
-            <general_container>
-                <data>Path #3: hold slack is 0.829(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 5.291" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es0_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=73)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
                             <data> </data>
                             <data>tco</data>
                             <data>0.323</data>
                             <data>4.738</data>
                             <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/Q (GTP_DFF_CE)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.553</data>
-                            <data>5.291</data>
+                            <data>net (fanout=1)</data>
+                            <data>0.464</data>
+                            <data>5.202</data>
                             <data> </data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="21">ES7243_i2s_rx/sr [1]</data>
+                            <data file_id="../source/voice_loop.v" line_number="114">rx_data[0]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -4060,7 +3803,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D (GTP_DFF_CE)</data>
+                            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[0]/D (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -4088,7 +3831,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4096,7 +3839,7 @@
                             <data>0.000</data>
                             <data>0.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4104,7 +3847,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4112,15 +3855,15 @@
                             <data>1.211</data>
                             <data>1.211</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=73)</data>
+                            <data>net (fanout=56)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4128,7 +3871,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -4159,7 +3902,213 @@
             </general_container>
         </row>
         <row>
-            <data>1.073</data>
+            <data>0.740</data>
+            <data>0</data>
+            <data>1</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CLK</data>
+            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[1]/D</data>
+            <data/>
+            <data>voice_loop_test|es0_dsclk</data>
+            <data>voice_loop_test|es0_dsclk</data>
+            <data>rise-rise</data>
+            <data>0.000</data>
+            <data>4.415</data>
+            <data>4.415</data>
+            <data>0.000</data>
+            <data>0.000</data>
+            <data>0.787</data>
+            <data>0.323 (41.0%)</data>
+            <data>0.464 (59.0%)</data>
+            <general_container>
+                <data>Path #3: hold slack is 0.740(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 5.202" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es0_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=56)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CLK (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.323</data>
+                            <data>4.738</data>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/Q (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.464</data>
+                            <data>5.202</data>
+                            <data> </data>
+                            <data file_id="../source/voice_loop.v" line_number="114">rx_data[1]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[1]/D (GTP_DFF_CE)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 4.462" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es0_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="12">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=56)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="12">nt_es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/i2s_loop.v" line_number="21">i2s_loop/ldata[1]/CLK (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Hold time</data>
+                            <data/>
+                            <data>0.047</data>
+                            <data>4.462</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
+            <data>1.029</data>
             <data>1</data>
             <data>1</data>
             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK</data>
@@ -4173,13 +4122,13 @@
             <data>4.516</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.120</data>
-            <data>0.656 (58.6%)</data>
-            <data>0.464 (41.4%)</data>
+            <data>1.068</data>
+            <data>0.604 (56.6%)</data>
+            <data>0.464 (43.4%)</data>
             <general_container>
-                <data>Path #4: hold slack is 1.073(MET)</data>
+                <data>Path #4: hold slack is 1.029(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 505.636" column_number="6">
+                    <table id="arrival" title="Data arrival time is 505.584" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4202,7 +4151,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4210,7 +4159,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4218,7 +4167,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4226,7 +4175,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4234,7 +4183,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4290,21 +4239,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I2 (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[1]/I1 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.333</data>
-                            <data>505.636</data>
-                            <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/Z (GTP_LUT5)</data>
+                            <data>0.281</data>
+                            <data>505.584</data>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[1]/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>505.636</data>
+                            <data>505.584</data>
                             <data> </data>
                             <data object_valid="true">ES8156_i2s_tx/N15 [1]</data>
                         </row>
@@ -4313,13 +4262,13 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data>f</data>
+                            <data>r</data>
                             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D (GTP_DFF_C)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 504.563" column_number="6">
+                    <table id="require" title="Data required time is 504.555" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4342,7 +4291,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4350,7 +4299,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4358,7 +4307,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4366,7 +4315,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4374,7 +4323,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4427,8 +4376,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.047</data>
-                            <data>504.563</data>
+                            <data>0.039</data>
+                            <data>504.555</data>
                             <data/>
                             <data/>
                         </row>
@@ -4437,7 +4386,7 @@
             </general_container>
         </row>
         <row>
-            <data>1.073</data>
+            <data>1.029</data>
             <data>1</data>
             <data>1</data>
             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/CLK</data>
@@ -4451,13 +4400,13 @@
             <data>4.516</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.120</data>
-            <data>0.656 (58.6%)</data>
-            <data>0.464 (41.4%)</data>
+            <data>1.068</data>
+            <data>0.604 (56.6%)</data>
+            <data>0.464 (43.4%)</data>
             <general_container>
-                <data>Path #5: hold slack is 1.073(MET)</data>
+                <data>Path #5: hold slack is 1.029(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 505.636" column_number="6">
+                    <table id="arrival" title="Data arrival time is 505.584" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4480,7 +4429,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4488,7 +4437,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4496,7 +4445,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4504,7 +4453,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4512,7 +4461,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4568,21 +4517,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I2 (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[2]/I1 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.333</data>
-                            <data>505.636</data>
-                            <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/Z (GTP_LUT5)</data>
+                            <data>0.281</data>
+                            <data>505.584</data>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[2]/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>505.636</data>
+                            <data>505.584</data>
                             <data> </data>
                             <data object_valid="true">ES8156_i2s_tx/N15 [2]</data>
                         </row>
@@ -4591,13 +4540,13 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data>f</data>
+                            <data>r</data>
                             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[2]/D (GTP_DFF_C)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 504.563" column_number="6">
+                    <table id="require" title="Data required time is 504.555" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4620,7 +4569,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4628,7 +4577,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4636,7 +4585,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4644,7 +4593,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4652,7 +4601,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4705,8 +4654,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.047</data>
-                            <data>504.563</data>
+                            <data>0.039</data>
+                            <data>504.555</data>
                             <data/>
                             <data/>
                         </row>
@@ -4715,7 +4664,7 @@
             </general_container>
         </row>
         <row>
-            <data>1.073</data>
+            <data>1.029</data>
             <data>1</data>
             <data>1</data>
             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[2]/CLK</data>
@@ -4729,13 +4678,13 @@
             <data>4.516</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.120</data>
-            <data>0.656 (58.6%)</data>
-            <data>0.464 (41.4%)</data>
+            <data>1.068</data>
+            <data>0.604 (56.6%)</data>
+            <data>0.464 (43.4%)</data>
             <general_container>
-                <data>Path #6: hold slack is 1.073(MET)</data>
+                <data>Path #6: hold slack is 1.029(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 505.636" column_number="6">
+                    <table id="arrival" title="Data arrival time is 505.584" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4758,7 +4707,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4766,7 +4715,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4774,7 +4723,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4782,7 +4731,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4790,7 +4739,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4846,21 +4795,21 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I2 (GTP_LUT5)</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[3]/I1 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.333</data>
-                            <data>505.636</data>
-                            <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/Z (GTP_LUT5)</data>
+                            <data>0.281</data>
+                            <data>505.584</data>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/N15[3]/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.000</data>
-                            <data>505.636</data>
+                            <data>505.584</data>
                             <data> </data>
                             <data object_valid="true">ES8156_i2s_tx/N15 [3]</data>
                         </row>
@@ -4869,13 +4818,13 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data>f</data>
+                            <data>r</data>
                             <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[3]/D (GTP_DFF_C)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 504.563" column_number="6">
+                    <table id="require" title="Data required time is 504.555" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -4898,7 +4847,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk (port)</data>
                         </row>
                         <row>
                             <data/>
@@ -4906,7 +4855,7 @@
                             <data>0.000</data>
                             <data>500.000</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4914,7 +4863,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/I (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data></data>
@@ -4922,7 +4871,7 @@
                             <data>1.312</data>
                             <data>501.312</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">es1_dsclk_ibuf/O (GTP_INBUF)</data>
                         </row>
                         <row>
                             <data/>
@@ -4930,7 +4879,7 @@
                             <data>0.000</data>
                             <data>501.312</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_dsclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -4983,8 +4932,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.047</data>
-                            <data>504.563</data>
+                            <data>0.039</data>
+                            <data>504.555</data>
                             <data/>
                             <data/>
                         </row>
@@ -5044,7 +4993,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5136,7 +5085,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5178,8 +5127,8 @@
             <data>1.118</data>
             <data>1</data>
             <data>2</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/CLK</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/D</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/CLK</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/D</data>
             <data/>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
@@ -5226,7 +5175,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5234,7 +5183,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5242,7 +5191,7 @@
                             <data>0.323</data>
                             <data>1.053</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/Q (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/Q (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data/>
@@ -5250,7 +5199,7 @@
                             <data>0.553</data>
                             <data>1.606</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="83">rstn_1ms[3]</data>
+                            <data file_id="../source/voice_loop.v" line_number="80">rstn_1ms[3]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5258,7 +5207,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_3/I1 (GTP_LUT5CARRY)</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32_0_3/I1 (GTP_LUT5CARRY)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5266,7 +5215,7 @@
                             <data>0.281</data>
                             <data>1.887</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_3/Z (GTP_LUT5CARRY)</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32_0_3/Z (GTP_LUT5CARRY)</data>
                         </row>
                         <row>
                             <data/>
@@ -5274,7 +5223,7 @@
                             <data>0.000</data>
                             <data>1.887</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32[3]</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32[3]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5282,7 +5231,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/D (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/D (GTP_DFF_R)</data>
                         </row>
                     </table>
                 </table_container>
@@ -5318,7 +5267,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5326,7 +5275,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[3]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -5360,8 +5309,8 @@
             <data>1.118</data>
             <data>1</data>
             <data>2</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/CLK</data>
+            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/D</data>
             <data/>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
             <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
@@ -5408,7 +5357,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5416,7 +5365,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5424,7 +5373,7 @@
                             <data>0.323</data>
                             <data>1.053</data>
                             <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/Q (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/Q (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data/>
@@ -5432,7 +5381,7 @@
                             <data>0.553</data>
                             <data>1.606</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="83">rstn_1ms[4]</data>
+                            <data file_id="../source/voice_loop.v" line_number="80">rstn_1ms[4]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5440,7 +5389,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/I1 (GTP_LUT5CARRY)</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32_0_4/I1 (GTP_LUT5CARRY)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5448,7 +5397,7 @@
                             <data>0.281</data>
                             <data>1.887</data>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/Z (GTP_LUT5CARRY)</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32_0_4/Z (GTP_LUT5CARRY)</data>
                         </row>
                         <row>
                             <data/>
@@ -5456,7 +5405,7 @@
                             <data>0.000</data>
                             <data>1.887</data>
                             <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32[4]</data>
+                            <data file_id="../source/voice_loop.v" line_number="90">N32[4]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5464,7 +5413,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/D (GTP_DFF_R)</data>
                         </row>
                     </table>
                 </table_container>
@@ -5500,7 +5449,7 @@
                             <data>0.730</data>
                             <data>0.730</data>
                             <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                            <data file_id="../source/voice_loop.v" line_number="17">nt_es1_mclk</data>
                         </row>
                         <row>
                             <data></data>
@@ -5508,7 +5457,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
+                            <data file_id="../source/voice_loop.v" line_number="81">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -5641,7 +5590,7 @@
 Total LUTs: 228 of 42800 (0.53%)
 	LUTs as dram: 0 of 17000 (0.00%)
 	LUTs as logic: 228
-Total Registers: 196 of 64200 (0.31%)
+Total Registers: 180 of 64200 (0.28%)
 Total Latches: 0
 
 DRM18K:
@@ -5663,7 +5612,7 @@ Total I/O ports = 20 of 296 (6.76%)
         </row>
         <row>
             <data>GTP_DFF_CE                  </data>
-            <data>64</data>
+            <data>48</data>
         </row>
         <row>
             <data>GTP_DFF_E                   </data>
@@ -5707,15 +5656,15 @@ Total I/O ports = 20 of 296 (6.76%)
         </row>
         <row>
             <data>GTP_LUT3                    </data>
-            <data>42</data>
+            <data>43</data>
         </row>
         <row>
             <data>GTP_LUT4                    </data>
-            <data>22</data>
+            <data>36</data>
         </row>
         <row>
             <data>GTP_LUT5                    </data>
-            <data>64</data>
+            <data>49</data>
         </row>
         <row>
             <data>GTP_LUT5CARRY               </data>
@@ -5773,8 +5722,8 @@ Total I/O ports = 20 of 296 (6.76%)
         <row>
             <data>0h:0m:6s</data>
             <data>0h:0m:6s</data>
-            <data>0h:0m:13s</data>
-            <data>332</data>
+            <data>0h:0m:7s</data>
+            <data>330</data>
             <data>WINDOWS 10 x86_64</data>
             <data>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</data>
             <data>16</data>
@@ -6414,6 +6363,9 @@ Total I/O ports = 20 of 296 (6.76%)
         </row>
         <row>
             <data message="5">Public-4008: Instance 'cnt_12M[16]' of 'GTP_DFF_R' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'ES7243_i2s_rx/r_vld' of 'GTP_DFF_C' unit is dangling and will be cleaned.</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'ES7243E_reg_config/u_i2c_com/ack1' of 'GTP_DFF_S' unit is dangling and will be cleaned.</data>

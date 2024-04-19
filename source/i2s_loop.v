@@ -22,9 +22,17 @@ always @(posedge sck or negedge rst_n)
 begin
     if(~rst_n)
         ldata <= {DATA_WIDTH{1'b0}};
-        rdata <= {DATA_WIDTH{1'b0}};
     else if(l_vld)
         ldata <= data;
+end
+
+
+always @(posedge sck or negedge rst_n)
+begin
+
+    if(~rst_n)
+        rdata <= {DATA_WIDTH{1'b0}};
+    else if(l_vld)
         rdata <= data;
 end
 

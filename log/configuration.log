@@ -643,3 +643,35 @@
 [Info] [2024-1-16 18:28:57] Current Path: D:/admin/desktop/voice_loop_50
 [Info] [2024-1-16 18:28:57] PDS Dir Path: D:/admin/desktop/voice_loop_50
 [Info] [2024-1-16 18:28:59] /***************************End Configration***************************/
+[Info] [2024-4-19 23:40:39] /***************************Start Configuration***************************/
+[Info] [2024-4-19 23:40:39] Path: C:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2024-4-19 23:40:39] Version: 132640
+[Info] [2024-4-19 23:40:40] Current Path: C:/Users/a2711/Desktop/voice_loop_50
+[Info] [2024-4-19 23:40:40] PDS Dir Path: C:/Users/a2711/Desktop/voice_loop_50
+[Debug] [2024-4-19 23:40:52] begin to add pango device by bitstream file.
+[Debug] [2024-4-19 23:40:53] bin file name is empty and end add pango device.
+[Info] [2024-4-19 23:40:54] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-4-19 23:40:54] Client Local host name:shxuuer
+[Debug] [2024-4-19 23:40:54] Client Local Address:10.21.146.126
+[Debug] [2024-4-19 23:40:54] Client Local Address:2.0.0.1
+[Debug] [2024-4-19 23:40:54] Client Local Address:192.168.110.1
+[Debug] [2024-4-19 23:40:54] Client Local Address:192.168.253.1
+[Debug] [2024-4-19 23:40:54] Server Address:127.0.0.1, Port:65420
+[Info] [2024-4-19 23:40:56] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-4-19 23:40:56] Finish.
+[Info] [2024-4-19 23:40:56] Connect server succeeded
+[Debug] [2024-4-19 23:40:56] Send RPC:1
+[Debug] [2024-4-19 23:40:56] Send cmd [check version information:40004] OK
+[Debug] [2024-4-19 23:40:56] Send RPC:2
+[Debug] [2024-4-19 23:40:56] Send cmd [get_cable_paras:40010] OK
+[Debug] [2024-4-19 23:40:56] Begin to send initialize chain cmd...
+[Debug] [2024-4-19 23:40:56] Send RPC:3
+[Debug] [2024-4-19 23:40:56] Send cmd [Open config cable:20001] OK
+[Debug] [2024-4-19 23:40:56] End to send initialize chain cmd.
+[Debug] [2024-4-19 23:40:56] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2024-4-19 23:40:57] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Error] [2024-4-19 23:40:57] fail to exec Open config cable cmd...
+[Debug] [2024-4-19 23:41:05] begin to add pango device by bitstream file.
+[Debug] [2024-4-19 23:41:06] bin file name is empty and end add pango device.
+[Debug] [2024-4-19 23:41:09] begin to add non pango device...
+[Info] [2024-4-19 23:41:13] /***************************End Configration***************************/

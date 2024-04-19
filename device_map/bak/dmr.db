@@ -2716,35 +2716,28 @@
             <data>CLKOUT0</data>
             <data>u_pll/u_pll_e3</data>
             <data>clkbufg_3</data>
-            <data>nt_es1_mclk</data>
-            <data>7</data>
+            <data>ntclkbufg_0</data>
+            <data>434</data>
         </row>
         <row>
             <data>TCK_USER</data>
             <data>u_CORES/u_GTP_SCANCHAIN_PG</data>
             <data>clkbufg_4</data>
-            <data>u_CORES/drck_o</data>
-            <data>1</data>
+            <data>ntclkbufg_1</data>
+            <data>178</data>
         </row>
         <row>
             <data>O</data>
             <data>es0_dsclk_ibuf</data>
             <data>clkbufg_5</data>
-            <data>nt_es0_dsclk</data>
-            <data>3</data>
-        </row>
-        <row>
-            <data>CAPDR</data>
-            <data>u_CORES/u_GTP_SCANCHAIN_PG</data>
-            <data>clkbufg_6</data>
-            <data>u_CORES/capt_o</data>
-            <data>1</data>
+            <data>ntclkbufg_2</data>
+            <data>73</data>
         </row>
         <row>
             <data>O</data>
             <data>es1_dsclk_ibuf</data>
-            <data>clkbufg_7</data>
-            <data>nt_es1_dsclk</data>
+            <data>clkbufg_6</data>
+            <data>ntclkbufg_3</data>
             <data>3</data>
         </row>
     </table>
@@ -2760,11 +2753,6 @@
             <data>19</data>
         </row>
         <row>
-            <data>_$$_GND_$$_</data>
-            <data>_$$_GND_$$_</data>
-            <data>26</data>
-        </row>
-        <row>
             <data>ES7243E_reg_config/N6_inv</data>
             <data>ES7243E_reg_config/N6_mux2_3</data>
             <data>4</data>
@@ -2773,6 +2761,11 @@
             <data>ES7243E_reg_config/N14_1</data>
             <data>ES7243E_reg_config/N14_1</data>
             <data>41</data>
+        </row>
+        <row>
+            <data>_$$_GND_$$_</data>
+            <data>_$$_GND_$$_</data>
+            <data>26</data>
         </row>
         <row>
             <data>ES7243E_reg_config/N182_1</data>
@@ -2839,7 +2832,7 @@
         <row>
             <data>u_CORES/u_debug_core_0/conf_rst</data>
             <data>u_CORES/u_debug_core_0/u_hub_data_decode/newrst.conf_rst</data>
-            <data>105</data>
+            <data>102</data>
         </row>
         <row>
             <data>ntclkbufg_2</data>
@@ -2847,8 +2840,8 @@
             <data>73</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u0_trig_unit/N1601</data>
-            <data>u_CORES/u_debug_core_0/u0_trig_unit/N1601</data>
+            <data>u_CORES/u_debug_core_0/u0_trig_unit/N1635</data>
+            <data>u_CORES/u_debug_core_0/u0_trig_unit/N1635</data>
             <data>70</data>
         </row>
         <row>
@@ -2864,7 +2857,7 @@
         <row>
             <data>u_CORES/u_debug_core_0/rst_trig [1]</data>
             <data>u_CORES/u_debug_core_0/rst_trig[1]</data>
-            <data>47</data>
+            <data>48</data>
         </row>
         <row>
             <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg [16]</data>
@@ -2877,13 +2870,13 @@
             <data>45</data>
         </row>
         <row>
-            <data>ES7243E_reg_config/N182_1</data>
-            <data>ES7243E_reg_config/N182_1</data>
+            <data>ES7243E_reg_config/N14_1</data>
+            <data>ES7243E_reg_config/N14_1</data>
             <data>41</data>
         </row>
         <row>
-            <data>ES7243E_reg_config/N14_1</data>
-            <data>ES7243E_reg_config/N14_1</data>
+            <data>ES7243E_reg_config/N182_1</data>
+            <data>ES7243E_reg_config/N182_1</data>
             <data>41</data>
         </row>
         <row>
@@ -2899,12 +2892,12 @@
         <row>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [1]</data>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[1]</data>
-            <data>28</data>
+            <data>27</data>
         </row>
         <row>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [2]</data>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[2]</data>
-            <data>27</data>
+            <data>26</data>
         </row>
         <row>
             <data>ES7243_i2s_rx/ws_d [0]</data>
@@ -2917,11 +2910,6 @@
             <data>23</data>
         </row>
         <row>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count [2]</data>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count[2]</data>
-            <data>23</data>
-        </row>
-        <row>
             <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt [0]</data>
             <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[0]</data>
             <data>22</data>
@@ -2929,12 +2917,12 @@
         <row>
             <data>ES7243E_reg_config/u_i2c_com/cyc_count [2]</data>
             <data>ES7243E_reg_config/u_i2c_com/cyc_count[2]</data>
-            <data>21</data>
+            <data>22</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/conf_id_o [0]</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[0]</data>
-            <data>20</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count [2]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count[2]</data>
+            <data>22</data>
         </row>
         <row>
             <data>ES8156_reg_config/reg_index [0]</data>
@@ -2942,9 +2930,9 @@
             <data>20</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/conf_id_o [2]</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[2]</data>
-            <data>20</data>
+            <data>N6</data>
+            <data>N6_inv</data>
+            <data>19</data>
         </row>
         <row>
             <data>ES8156_reg_config/reg_index [1]</data>
@@ -2962,23 +2950,8 @@
             <data>19</data>
         </row>
         <row>
-            <data>N6</data>
-            <data>N6_inv</data>
-            <data>19</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/conf_sel_o</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/newconfini.conf_sel_ini</data>
-            <data>18</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N422</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N422</data>
-            <data>18</data>
-        </row>
-        <row>
-            <data>ES8156_i2s_tx/N0_1</data>
-            <data>ES8156_i2s_tx/N0_1</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N458</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N458</data>
             <data>18</data>
         </row>
         <row>
@@ -2987,9 +2960,14 @@
             <data>18</data>
         </row>
         <row>
-            <data>ES7243_i2s_rx/ws_e</data>
-            <data>ES7243_i2s_rx/N15</data>
-            <data>17</data>
+            <data>ES8156_i2s_tx/N0_1</data>
+            <data>ES8156_i2s_tx/N0_1</data>
+            <data>18</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/conf_sel_o</data>
+            <data>u_CORES/u_debug_core_0/u_hub_data_decode/newconfini.conf_sel_ini</data>
+            <data>18</data>
         </row>
         <row>
             <data>ES8156_i2s_tx/ws_d [0]</data>
@@ -3002,28 +2980,13 @@
             <data>17</data>
         </row>
         <row>
-            <data>rx_r_vld</data>
-            <data>ES7243_i2s_rx/r_vld</data>
-            <data>16</data>
-        </row>
-        <row>
-            <data>ES8156_i2s_tx/N13</data>
-            <data>ES8156_i2s_tx/N13</data>
-            <data>16</data>
+            <data>ES7243_i2s_rx/ws_e</data>
+            <data>ES7243_i2s_rx/N15</data>
+            <data>17</data>
         </row>
         <row>
             <data>ES8156_i2s_tx/ws_d [1]</data>
             <data>ES8156_i2s_tx/ws_d[1]</data>
-            <data>16</data>
-        </row>
-        <row>
-            <data>rx_l_vld</data>
-            <data>ES7243_i2s_rx/l_vld</data>
-            <data>16</data>
-        </row>
-        <row>
-            <data>ES7243_i2s_rx/N53</data>
-            <data>ES7243_i2s_rx/N53</data>
             <data>16</data>
         </row>
         <row>
@@ -3032,13 +2995,8 @@
             <data>16</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg [14]</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg[14]</data>
-            <data>16</data>
-        </row>
-        <row>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count [6]</data>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count[6]</data>
+            <data>ES8156_i2s_tx/N13</data>
+            <data>ES8156_i2s_tx/N13</data>
             <data>16</data>
         </row>
         <row>
@@ -3047,8 +3005,33 @@
             <data>16</data>
         </row>
         <row>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count [5]</data>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count[5]</data>
+            <data>ES7243_i2s_rx/N53</data>
+            <data>ES7243_i2s_rx/N53</data>
+            <data>16</data>
+        </row>
+        <row>
+            <data>rx_r_vld</data>
+            <data>ES7243_i2s_rx/r_vld</data>
+            <data>16</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg [14]</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg[14]</data>
+            <data>16</data>
+        </row>
+        <row>
+            <data>rx_l_vld</data>
+            <data>ES7243_i2s_rx/l_vld</data>
+            <data>16</data>
+        </row>
+        <row>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count [3]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count[3]</data>
+            <data>16</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/rst_conf_d2</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/rst_conf_d2</data>
             <data>15</data>
         </row>
         <row>
@@ -3057,14 +3040,19 @@
             <data>15</data>
         </row>
         <row>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count [3]</data>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count[3]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count [6]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count[6]</data>
             <data>15</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/rst_conf_d2</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/rst_conf_d2</data>
-            <data>15</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count [5]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count[5]</data>
+            <data>14</data>
+        </row>
+        <row>
+            <data>ES8156_reg_config/N270</data>
+            <data>ES8156_reg_config/N270_3</data>
+            <data>14</data>
         </row>
         <row>
             <data>ES8156_reg_config/u_i2c_com/cyc_count [1]</data>
@@ -3072,13 +3060,23 @@
             <data>14</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N434</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N434_3</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N501</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N501</data>
             <data>14</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N418</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N418</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count [6]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count[6]</data>
+            <data>14</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N498</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N498</data>
+            <data>14</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N454</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N454</data>
             <data>14</data>
         </row>
         <row>
@@ -3087,33 +3085,18 @@
             <data>14</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N498</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N498</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N470</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N470_3</data>
             <data>14</data>
-        </row>
-        <row>
-            <data>ES8156_reg_config/N269</data>
-            <data>ES8156_reg_config/N269_3</data>
-            <data>14</data>
-        </row>
-        <row>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count [4]</data>
-            <data>ES8156_reg_config/u_i2c_com/cyc_count[4]</data>
-            <data>14</data>
-        </row>
-        <row>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count [3]</data>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count[3]</data>
-            <data>14</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/ram_radr [2]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[2]</data>
-            <data>13</data>
         </row>
         <row>
             <data>u_CORES/u_debug_core_0/ram_radr [3]</data>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[3]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/ram_radr [4]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[4]</data>
             <data>13</data>
         </row>
         <row>
@@ -3122,28 +3105,18 @@
             <data>13</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/ram_radr [8]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[8]</data>
-            <data>13</data>
-        </row>
-        <row>
             <data>u_CORES/u_debug_core_0/ram_radr [6]</data>
             <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[6]</data>
             <data>13</data>
         </row>
         <row>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count [6]</data>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count[6]</data>
+            <data>u_CORES/u_debug_core_0/ram_radr [2]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[2]</data>
             <data>13</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/ram_radr [7]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[7]</data>
-            <data>13</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N490</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N490</data>
+            <data>u_CORES/u_debug_core_0/ram_radr [8]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[8]</data>
             <data>13</data>
         </row>
         <row>
@@ -3167,13 +3140,28 @@
             <data>13</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/ram_radr [4]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[4]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/_N2290</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N490_1</data>
             <data>13</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N426</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N426</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count [3]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count[3]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N490</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N490_5</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N462</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N462</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count [5]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count[5]</data>
             <data>13</data>
         </row>
         <row>
@@ -3182,28 +3170,43 @@
             <data>13</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/conf_id_o [1]</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[1]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count [4]</data>
+            <data>ES8156_reg_config/u_i2c_com/cyc_count[4]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/ram_radr [7]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[7]</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/_N379</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N471_13</data>
+            <data>13</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/ram_wadr [7]</data>
+            <data>u_CORES/u_debug_core_0/ram_wadr[7]</data>
             <data>12</data>
         </row>
         <row>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count [5]</data>
-            <data>ES7243E_reg_config/u_i2c_com/cyc_count[5]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count [4]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count[4]</data>
             <data>12</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/ram_wren</data>
-            <data>u_CORES/u_debug_core_0/ram_wren</data>
-            <data>12</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/ram_wadr [12]</data>
-            <data>u_CORES/u_debug_core_0/ram_wadr[12]</data>
+            <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt [1]</data>
+            <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[1]</data>
             <data>12</data>
         </row>
         <row>
             <data>ES7243E_reg_config/u_i2c_com/cyc_count [1]</data>
             <data>ES7243E_reg_config/u_i2c_com/cyc_count[1]</data>
+            <data>12</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/_N2319</data>
+            <data>u_CORES/u_debug_core_0/u_hub_data_decode/N258_1</data>
             <data>12</data>
         </row>
         <row>
@@ -3227,16 +3230,6 @@
             <data>12</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/_N787</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[12:0]_2</data>
-            <data>12</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/_N2314</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N69_88</data>
-            <data>12</data>
-        </row>
-        <row>
             <data>u_CORES/u_debug_core_0/ram_wadr [4]</data>
             <data>u_CORES/u_debug_core_0/ram_wadr[4]</data>
             <data>12</data>
@@ -3249,11 +3242,6 @@
         <row>
             <data>u_CORES/u_debug_core_0/ram_wadr [6]</data>
             <data>u_CORES/u_debug_core_0/ram_wadr[6]</data>
-            <data>12</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/ram_wadr [7]</data>
-            <data>u_CORES/u_debug_core_0/ram_wadr[7]</data>
             <data>12</data>
         </row>
         <row>
@@ -3272,38 +3260,23 @@
             <data>12</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt [1]</data>
-            <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[1]</data>
-            <data>12</data>
-        </row>
-        <row>
             <data>u_CORES/u_debug_core_0/ram_wadr [11]</data>
             <data>u_CORES/u_debug_core_0/ram_wadr[11]</data>
             <data>12</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N266_inv</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/N266_inv</data>
-            <data>11</data>
+            <data>u_CORES/u_debug_core_0/ram_wadr [12]</data>
+            <data>u_CORES/u_debug_core_0/ram_wadr[12]</data>
+            <data>12</data>
         </row>
         <row>
-            <data>ntclkbufg_3</data>
-            <data>clkbufg_6</data>
-            <data>11</data>
+            <data>u_CORES/u_debug_core_0/ram_wren</data>
+            <data>u_CORES/u_debug_core_0/ram_wren</data>
+            <data>12</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/conf_id_o [4]</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[4]</data>
-            <data>11</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/conf_id_o [3]</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[3]</data>
-            <data>11</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/_N2370</data>
-            <data>u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[6:0]_8</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/_N2279</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N69_88</data>
             <data>11</data>
         </row>
         <row>
@@ -3312,9 +3285,29 @@
             <data>11</data>
         </row>
         <row>
+            <data>u_CORES/capt_o</data>
+            <data>u_CORES/u_GTP_SCANCHAIN_PG</data>
+            <data>11</data>
+        </row>
+        <row>
             <data>u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/bit_cnt [0]</data>
             <data>u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/bit_cnt[0]</data>
             <data>11</data>
+        </row>
+        <row>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count [0]</data>
+            <data>ES7243E_reg_config/u_i2c_com/cyc_count[0]</data>
+            <data>11</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/_N2280</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/N69_89</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>u_CORES/u_jtag_hub/data_ctrl</data>
+            <data>u_CORES/u_jtag_hub/d_ctrl.data_ctrl</data>
+            <data>9</data>
         </row>
     </table>
     <table id="device_map_resource_usage" title="Resource Usage Summary" column_number="4">
@@ -3344,7 +3337,7 @@
         </row>
         <row>
             <data>LUT</data>
-            <data>784</data>
+            <data>779</data>
             <data>42800</data>
             <data>2</data>
         </row>
@@ -3428,9 +3421,9 @@
         </row>
         <row>
             <data>USCM</data>
-            <data>5</data>
+            <data>4</data>
             <data>30</data>
-            <data>17</data>
+            <data>14</data>
         </row>
         <row>
             <data>HSST</data>
@@ -3480,12 +3473,12 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:13s</data>
-            <data>248</data>
+            <data>0h:0m:7s</data>
+            <data>0h:0m:7s</data>
+            <data>0h:0m:35s</data>
+            <data>302</data>
             <data>WINDOWS 10 x86_64</data>
-            <data>13th Gen Intel(R) Core(TM) i5-13400</data>
+            <data>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</data>
             <data>16</data>
         </row>
     </table>
@@ -3678,10 +3671,7 @@
             <data message="4">The instance clkbufg_5(GTP_CLKBUFG) has been inserted on the net nt_es0_dsclk in design, driver pin O(instance es0_dsclk_ibuf) -&gt; load pin CLK(instance ES7243_i2s_rx/cnt[0]).</data>
         </row>
         <row>
-            <data message="4">The instance clkbufg_6(GTP_CLKBUFG) has been inserted on the net u_CORES/capt_o in design, driver pin CAPDR(instance u_CORES/u_GTP_SCANCHAIN_PG) -&gt; load pin CLK(instance u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[0]).</data>
-        </row>
-        <row>
-            <data message="4">The instance clkbufg_7(GTP_CLKBUFG) has been inserted on the net nt_es1_dsclk in design, driver pin O(instance es1_dsclk_ibuf) -&gt; load pin I(instance ES8156_i2s_tx/N13).</data>
+            <data message="4">The instance clkbufg_6(GTP_CLKBUFG) has been inserted on the net nt_es1_dsclk in design, driver pin O(instance es1_dsclk_ibuf) -&gt; load pin I(instance ES8156_i2s_tx/N13).</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: N32_0_1/gateop, insts:18.</data>
@@ -3696,16 +3686,16 @@
             <data message="4">Infer CARRY group, base inst: ES8156_reg_config/u_i2c_com/N36_1_1/gateop, insts:6.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N263_1_0/gateop, insts:13.</data>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N299_1_0/gateop, insts:13.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N282_1.fsub_1/gateop, insts:12.</data>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N318_1.fsub_1/gateop, insts:12.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N315_1_1/gateop, insts:12.</data>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N351_1_1/gateop, insts:12.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N324_1_1/gateop, insts:12.</data>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_Storage_Condition/N360_1_1/gateop, insts:12.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_rd_addr_gen/N2_1_1/gateop, insts:7.</data>
@@ -3714,10 +3704,10 @@
             <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u_rd_addr_gen/N38_1_1/gateop, insts:12.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N164_1_1/gateop, insts:6.</data>
+            <data message="4">Infer CARRY group, base inst: u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N196_1_1/gateop, insts:6.</data>
         </row>
         <row>
-            <data message="5">Public-4010: Pcf file D:/admin/desktop/voice_loop_50/device_map/voice_loop_test.pcf has been covered.</data>
+            <data message="5">Public-4010: Pcf file C:/Users/a2711/Desktop/voice_loop_50/device_map/voice_loop_test.pcf has been covered.</data>
         </row>
     </table>
     <general_container id="device_map_settings">
@@ -3754,11 +3744,11 @@
                         <data>false</data>
                     </row>
                     <row>
-                        <data>Min Fanout To Report</data>
+                        <data>Minimum Fanout To Report</data>
                         <data>1</data>
                     </row>
                     <row>
-                        <data>Number of Nets(Fanout &gt; Min Fanout) To Report</data>
+                        <data>Number of Nets(Fanout &gt;= Min Fanout) To Report</data>
                         <data>100</data>
                     </row>
                     <row>
@@ -3766,7 +3756,7 @@
                         <data>true</data>
                     </row>
                     <row>
-                        <data>Minimun Number of Register in a Control Set</data>
+                        <data>Minimum Number of Register in a Control Set</data>
                         <data>0</data>
                     </row>
                     <row>
@@ -4634,6 +4624,201 @@
                     <data>1</data>
                 </row>
                 <row>
+                    <data>i:u_CORES/u_jtag_hub/N3</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N4</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N17_5</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N17_6</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N17_7</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N17_8</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N17_9</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N99_25</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N140_4</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N178_0</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/N180</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/_N237_1_inv</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/cs.conf_sel[0]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/d_ctrl.data_ctrl</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/id.id_o[0]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/id.id_o[1]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/id.id_o[2]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/id.id_o[3]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/id.id_o[4]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[0]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[1]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[2]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[3]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[4]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[5]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[6]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[7]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_0</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_2</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_3</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_4</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_5</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_6</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_8</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_9</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8:0]_10</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shft.shift_data[8]</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shift</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
+                    <data>i:u_CORES/u_jtag_hub/shift_dr_d</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
                     <data>n:ce</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
@@ -4919,12 +5104,12 @@
                     <data>1</data>
                 </row>
                 <row>
-                    <data>n:ES7243E_reg_config/config_step_1</data>
+                    <data>n:ES7243E_reg_config/config_step [0]</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
                 </row>
                 <row>
-                    <data>n:ES7243E_reg_config/config_step_2</data>
+                    <data>n:ES7243E_reg_config/config_step [1]</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
                 </row>
@@ -5114,6 +5299,11 @@
                     <data>1</data>
                 </row>
                 <row>
+                    <data>n:u_CORES/drck_o</data>
+                    <data>PAP_CLOCK_DEDICATED_ROUTE</data>
+                    <data>FALSE</data>
+                </row>
+                <row>
                     <data>n:ES7243E_reg_config/u_i2c_com/ack1</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
@@ -5164,7 +5354,7 @@
                     <data>1</data>
                 </row>
                 <row>
-                    <data>n:ES7243E_reg_config/u_i2c_com/reg_sdat</data>
+                    <data>n:ES7243E_reg_config/u_i2c_com/reg_sdat_rnmt</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
                 </row>
@@ -5219,7 +5409,7 @@
                     <data>1</data>
                 </row>
                 <row>
-                    <data>n:ES8156_reg_config/u_i2c_com/reg_sdat</data>
+                    <data>n:ES8156_reg_config/u_i2c_com/reg_sdat_rnmt</data>
                     <data>PAP_MARK_DEBUG</data>
                     <data>1</data>
                 </row>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tables>
-    <table id="pnr_io_report" title="IO Report" column_number="18">
+    <table id="pnr_io_report" title="IO Report" column_number="19">
         <column_headers>
             <data>PORT</data>
             <data>DIRECTION</data>
@@ -20,6 +20,7 @@
             <data>DIFF_IN_TERM_MODE</data>
             <data>OPEN_DRAIN</data>
             <data>CONSTRAINT</data>
+            <data>IO_REGISTER</data>
         </column_headers>
         <row>
             <data>adc_dac_int</data>
@@ -40,6 +41,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es0_alrck</data>
@@ -60,6 +62,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es0_dsclk</data>
@@ -80,6 +83,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es0_mclk</data>
@@ -100,6 +104,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es0_sdin</data>
@@ -120,6 +125,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es1_dlrc</data>
@@ -140,6 +146,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es1_dsclk</data>
@@ -160,6 +167,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es1_mclk</data>
@@ -180,6 +188,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es1_sdin</data>
@@ -200,6 +209,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es1_sdout</data>
@@ -220,6 +230,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es7243_scl</data>
@@ -240,6 +251,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es7243_sda</data>
@@ -260,6 +272,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es8156_scl</data>
@@ -280,6 +293,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>es8156_sda</data>
@@ -300,6 +314,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>key</data>
@@ -320,6 +335,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>lin_led</data>
@@ -340,6 +356,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>lin_test</data>
@@ -360,6 +377,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>lout_led</data>
@@ -380,6 +398,7 @@
             <data>NA</data>
             <data>OFF</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>lout_test</data>
@@ -400,6 +419,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
         <row>
             <data>sys_clk</data>
@@ -420,6 +440,7 @@
             <data>NA</data>
             <data>NA</data>
             <data>YES</data>
+            <data>NA</data>
         </row>
     </table>
     <table id="pnr_pinout_report" title="Pinout Report" column_number="7">
@@ -3118,48 +3139,48 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>196</data>
+            <data>198</data>
             <data>6450</data>
             <data>4</data>
             <row>
                 <data>  FF</data>
-                <data>507</data>
+                <data>527</data>
                 <data>38700</data>
                 <data>2</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>543</data>
+                <data>535</data>
                 <data>25800</data>
                 <data>3</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>310</data>
+                <data>330</data>
                 <data>25800</data>
                 <data>2</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>88</data>
+            <data>91</data>
             <data>4250</data>
             <data>3</data>
             <row>
                 <data>  FF</data>
-                <data>245</data>
+                <data>225</data>
                 <data>25500</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>245</data>
+                <data>244</data>
                 <data>17000</data>
                 <data>2</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>137</data>
+                <data>111</data>
                 <data>17000</data>
                 <data>1</data>
             </row>
@@ -3202,7 +3223,7 @@
         </row>
         <row>
             <data>Use of HARD0N1</data>
-            <data>119</data>
+            <data>117</data>
             <data>6672</data>
             <data>2</data>
         </row>
@@ -3331,6 +3352,12 @@
             <data>0</data>
             <data>24</data>
             <data>0</data>
+            <row>
+                <data> RCKB dataused</data>
+                <data>0</data>
+                <data>24</data>
+                <data>0</data>
+            </row>
         </row>
         <row>
             <data>Use of RCKBMUX_TEST</data>
@@ -3364,9 +3391,15 @@
         </row>
         <row>
             <data>Use of USCM</data>
-            <data>6</data>
+            <data>5</data>
             <data>30</data>
-            <data>20</data>
+            <data>17</data>
+            <row>
+                <data> USCM dataused</data>
+                <data>0</data>
+                <data>30</data>
+                <data>0</data>
+            </row>
         </row>
         <row>
             <data>Use of USCMMUX_TEST</data>
@@ -3411,7 +3444,7 @@
         </column_headers>
         <row>
             <data>voice_loop_test</data>
-            <data>784</data>
+            <data>779</data>
             <data>752</data>
             <data>0</data>
             <data>0</data>
@@ -3434,10 +3467,10 @@
             <data>1</data>
             <data>0</data>
             <data>0</data>
-            <data>6</data>
+            <data>5</data>
             <row>
                 <data>ES7243E_reg_config</data>
-                <data>58</data>
+                <data>60</data>
                 <data>27</data>
                 <data>0</data>
                 <data>0</data>
@@ -3463,7 +3496,7 @@
                 <data>0</data>
                 <row>
                     <data>u_i2c_com</data>
-                    <data>37</data>
+                    <data>39</data>
                     <data>11</data>
                     <data>0</data>
                     <data>0</data>
@@ -3545,7 +3578,7 @@
             </row>
             <row>
                 <data>ES8156_reg_config</data>
-                <data>63</data>
+                <data>61</data>
                 <data>35</data>
                 <data>0</data>
                 <data>0</data>
@@ -3571,7 +3604,7 @@
                 <data>0</data>
                 <row>
                     <data>u_i2c_com</data>
-                    <data>38</data>
+                    <data>36</data>
                     <data>11</data>
                     <data>0</data>
                     <data>0</data>
@@ -3653,7 +3686,7 @@
             </row>
             <row>
                 <data>u_CORES</data>
-                <data>592</data>
+                <data>587</data>
                 <data>580</data>
                 <data>0</data>
                 <data>0</data>
@@ -3691,28 +3724,28 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:43s</data>
-            <data>0h:0m:43s</data>
-            <data>0h:0m:46s</data>
-            <data>798</data>
+            <data>0h:0m:22s</data>
+            <data>0h:0m:22s</data>
+            <data>0h:0m:24s</data>
+            <data>934</data>
             <data>WINDOWS 10 x86_64</data>
-            <data>13th Gen Intel(R) Core(TM) i5-13400</data>
+            <data>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</data>
             <data>16</data>
         </row>
     </table>
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 8)] | Port es1_sdout has been placed at location AB5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 8)] | Port es1_sdout has been placed at location AB5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 16)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 16)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 19)] | Port key has been placed at location K18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 19)] | Port key has been placed at location K18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 20)] | Port lin_test has been placed at location Y13, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/device_map/voice_loop_test.pcf(line number: 20)] | Port lin_test has been placed at location Y13, whose type is share pin.</data>
         </row>
         <row>
             <data message="4">Column Clock Check open.</data>
@@ -3724,19 +3757,31 @@
             <data message="6">Place-2028: GLOBAL_CLOCK: the driver es1_dsclk_ibuf/opit_1 fixed at IOL_39_6 is unreasonable. Sub-optimal placement for a clock source and a clock buffer.</data>
         </row>
         <row>
-            <data message="6">Place-2028: GLOBAL_CLOCK: the driver u_CORES/u_GTP_SCANCHAIN_PG/scanchain fixed at SCANCHAIN_325_0 is unreasonable. Sub-optimal placement for a clock source and a clock buffer.</data>
+            <data message="4">Process macros using &quot;Greedy&quot;.</data>
+        </row>
+        <row>
+            <data message="4">Design net u_CORES/drck_o is routed by general path.</data>
         </row>
         <row>
             <data message="6">Route-2036: The clock path from u_CORES/u_GTP_SCANCHAIN_PG/scanchain:TCK_USER to clkbufg_4/gopclkbufg:CLK is routed by SRB.</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from u_CORES/u_GTP_SCANCHAIN_PG/scanchain:CAPDR to clkbufg_6/gopclkbufg:CLK is routed by SRB.</data>
+            <data message="4">Design net nt_es1_dsclk is routed by general path.</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from es1_dsclk_ibuf/opit_1:OUT to clkbufg_7/gopclkbufg:CLK is routed by SRB.</data>
+            <data message="6">Route-2036: The clock path from es1_dsclk_ibuf/opit_1:OUT to clkbufg_6/gopclkbufg:CLK is routed by SRB.</data>
         </row>
         <row>
-            <data message="6">Route-2036: The clock path from ES7243E_reg_config/clock_i2c/opit_0_L5Q:Q to ES7243E_reg_config/config_step_2/opit_0_inv:CLK is routed by SRB.</data>
+            <data message="4">Design net clock_i2c is routed by general path.</data>
+        </row>
+        <row>
+            <data message="6">Route-2036: The clock path from ES7243E_reg_config/clock_i2c/opit_0_L5Q:Q to ES7243E_reg_config/config_step_reg[2]/opit_0_inv:CLK is routed by SRB.</data>
+        </row>
+        <row>
+            <data message="4">Design net u_CORES/capt_o is routed by general path.</data>
+        </row>
+        <row>
+            <data message="6">Route-2036: The clock path from u_CORES/u_GTP_SCANCHAIN_PG/scanchain:CAPDR to u_CORES/u_debug_core_0/u_hub_data_decode/id_sample.conf_id[4]/opit_0_inv:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -3827,7 +3872,7 @@
                     </row>
                     <row>
                         <data>Early Block Placement</data>
-                        <data>true</data>
+                        <data>Greedy</data>
                     </row>
                     <row>
                         <data>Auto Dispose Macro Object</data>
@@ -3920,7 +3965,7 @@
                     </row>
                     <row>
                         <data>Enable Recovery Analysis in Routing</data>
-                        <data>false</data>
+                        <data>true</data>
                     </row>
                     <row>
                         <data>Check Clock Net Routing Path</data>
@@ -4028,7 +4073,7 @@
                     <data>clkbufg_4/gopclkbufg</data>
                     <data>USCM_84_110</data>
                     <data>ntclkbufg_1</data>
-                    <data>183</data>
+                    <data>180</data>
                     <data>0</data>
                     <data>u_CORES/u_GTP_SCANCHAIN_PG/scanchain</data>
                     <data>TCK_USER</data>
@@ -4046,18 +4091,8 @@
                 </row>
                 <row>
                     <data>clkbufg_6/gopclkbufg</data>
-                    <data>USCM_84_112</data>
-                    <data>ntclkbufg_3</data>
-                    <data>11</data>
-                    <data>0</data>
-                    <data>u_CORES/u_GTP_SCANCHAIN_PG/scanchain</data>
-                    <data>CAPDR</data>
-                    <data>SCANCHAIN_325_0</data>
-                </row>
-                <row>
-                    <data>clkbufg_7/gopclkbufg</data>
                     <data>USCM_84_111</data>
-                    <data>ntclkbufg_4</data>
+                    <data>ntclkbufg_3</data>
                     <data>18</data>
                     <data>0</data>
                     <data>es1_dsclk_ibuf/opit_1</data>
@@ -4106,10 +4141,10 @@
                     <data>u_pll/u_pll_e3/goppll</data>
                     <data>PLL_158_55</data>
                     <data>CLKIN2</data>
-                    <data>ntR190</data>
+                    <data>ntR175</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_72</data>
+                    <data>GND_70</data>
                     <data>Z</data>
                     <data>HARD0N1_156_57</data>
                 </row>

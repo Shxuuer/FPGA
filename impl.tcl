@@ -74,3 +74,28 @@ gen_bit_stream
 set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
 compile -top_module voice_loop_test
 synthesize -ads -selected_syn_tool_opt 2 
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/fft_demo_00.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/ipsxe_fft_exp_rom.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/ipsxe_fft_distram_sreg.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/drm_init_param.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_onboard_top.v"
+add_design "C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_sync_arstn.v"
+dev_map 
+pnr 
+report_timing 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module voice_loop_test
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

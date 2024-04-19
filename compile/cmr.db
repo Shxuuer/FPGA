@@ -34,6 +34,66 @@
             <data>Verilog</data>
         </row>
         <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/fft_demo_00.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/ipsxe_fft_exp_rom.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/ipsxe_fft_distram_sreg.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/drm_init_param.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_onboard_top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_sync_arstn.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
             <data>C:/Users/a2711/Desktop/voice_loop_50/ipcore/PLL/PLL.idf</data>
             <data>IP</data>
         </row>
@@ -49,10 +109,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:3s</data>
-            <data>0h:0m:8s</data>
-            <data>190</data>
+            <data>0h:0m:4s</data>
+            <data>0h:0m:4s</data>
+            <data>0h:0m:11s</data>
+            <data>262</data>
             <data>WINDOWS 10 x86_64</data>
             <data>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</data>
             <data>16</data>
@@ -103,7 +163,460 @@
             <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 7)] Analyzing module voice_loop_test (library work)</data>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 4)] Analyzing module voice_loop_test (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/fft_demo_00.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/fft_demo_00.v(line number: 13)] Analyzing module fft_demo_00 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/ipsxe_fft_exp_rom.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/ipsxe_fft_exp_rom.v(line number: 14)] Analyzing module ipsxe_fft_exp_rom (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v(line number: 20)] Analyzing module ipsxe_fft_distram_sdpram (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/ipsxe_fft_distram_sreg.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/ipsxe_fft_distram_sreg.v(line number: 21)] Analyzing module ipsxe_fft_distram_sreg (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v(line number: 20)] Analyzing module ipsxe_fft_distributed_sdpram_v1_2 (library work)</data>
+        </row>
+        <row>
+            <data message="4">[C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v(line number: 29)] Convert attribute name from syn_ramstyle to PAP_RAM_STYLE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v(line number: 19)] Analyzing module ipsxe_fft_distributed_shiftregister_v1_3 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v(line number: 18)] Analyzing module ipsxe_fft_drm_sdpram_18k (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v(line number: 18)] Analyzing module ipsxe_fft_drm_sdpram_36k (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 18)] Analyzing module ipml_sdpram_v1_7_drm (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 310)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 311)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 314)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 318)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 322)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 326)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 330)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 331)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 334)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 335)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 338)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 339)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 342)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 343)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 346)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 347)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 350)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 351)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 354)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 355)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 358)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 359)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 362)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 363)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 366)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 367)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 370)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 371)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 375)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 376)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 379)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 380)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 384)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 385)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 388)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 389)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 392)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 393)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 396)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 397)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 400)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 401)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 406)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 407)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 410)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 411)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 416)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(line number: 417)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 74)] Analyzing module ipsxe_fft_addsub_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 278)] Analyzing module ipsxe_fft_apm_addsub_dual_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 540)] Analyzing module ipsxe_fft_apm_addsub_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 1542)] Analyzing module ipsxe_fft_apm_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 1725)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 2601)] Analyzing module ipsxe_fft_burst_input_ctrl_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 2851)] Analyzing module ipsxe_fft_cfg_ctrl_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 2982)] Analyzing module ipsxe_fft_comp_addsub_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 3482)] Analyzing module ipsxe_fft_comp_mult_t10_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 4298)] Analyzing module ipsxe_fft_comp_mult_t11_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 5117)] Analyzing module ipsxe_fft_comp_mult_t12_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 6191)] Analyzing module ipsxe_fft_comp_mult_t13_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 7408)] Analyzing module ipsxe_fft_comp_mult_t14_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 8834)] Analyzing module ipsxe_fft_comp_mult_t15_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 9894)] Analyzing module ipsxe_fft_comp_mult_t16_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 10371)] Analyzing module ipsxe_fft_comp_mult_t17_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 11000)] Analyzing module ipsxe_fft_comp_mult_t18_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 11758)] Analyzing module ipsxe_fft_comp_mult_t19_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 12457)] Analyzing module ipsxe_fft_comp_mult_t1_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 13160)] Analyzing module ipsxe_fft_comp_mult_t20_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 14360)] Analyzing module ipsxe_fft_comp_mult_t21_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 15578)] Analyzing module ipsxe_fft_comp_mult_t22_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 16412)] Analyzing module ipsxe_fft_comp_mult_t2_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 16893)] Analyzing module ipsxe_fft_comp_mult_t3_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 17574)] Analyzing module ipsxe_fft_comp_mult_t4_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 18273)] Analyzing module ipsxe_fft_comp_mult_t5_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 18985)] Analyzing module ipsxe_fft_comp_mult_t6_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 19748)] Analyzing module ipsxe_fft_comp_mult_t7_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 20520)] Analyzing module ipsxe_fft_comp_mult_t8_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 21277)] Analyzing module ipsxe_fft_comp_mult_t9_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 22138)] Analyzing module ipsxe_fft_comp_mult_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 22707)] Analyzing module ipsxe_fft_comp_round_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 22983)] Analyzing module ipsxe_fft_drm_sdpram_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 23321)] Analyzing module ipsxe_fft_drm_sreg_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 23468)] Analyzing module ipsxe_fft_dynamic_comp_round_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 23666)] Analyzing module ipsxe_fft_dynamic_round_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 23899)] Analyzing module ipsxe_fft_lut_addsub_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 24102)] Analyzing module ipsxe_fft_output_ctrl_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 24571)] Analyzing module ipsxe_fft_output_process_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 25179)] Analyzing module ipsxe_fft_overflow_det_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 25558)] Analyzing module ipsxe_fft_pipeline_core_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 25954)] Analyzing module ipsxe_fft_pipeline_input_ctrl_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 26307)] Analyzing module ipsxe_fft_r22bf_as_multi_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 26711)] Analyzing module ipsxe_fft_r22bf_as_paral_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 27092)] Analyzing module ipsxe_fft_r22bf_as_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 27385)] Analyzing module ipsxe_fft_r22_dif_group_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 27653)] Analyzing module ipsxe_fft_r22_mult_by_j_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 27864)] Analyzing module ipsxe_fft_r22_mult_by_twiddle_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 28085)] Analyzing module ipsxe_fft_r2bf_as_core_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 28310)] Analyzing module ipsxe_fft_r2_dit_bf_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 28929)] Analyzing module ipsxe_fft_r2_dit_ctrl_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 29703)] Analyzing module ipsxe_fft_r2_dit_mult_by_twiddle_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 30271)] Analyzing module ipsxe_fft_radix2_burst_core_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 30855)] Analyzing module ipsxe_fft_round_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 31030)] Analyzing module ipsxe_fft_sdpram_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 31168)] Analyzing module ipsxe_fft_shift_ram_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 82471)] Analyzing module ipsxe_fft_sin_distram_rom_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">[C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 82471)] Convert attribute name from syn_romstyle to PAP_RAM_STYLE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 182989)] Analyzing module ipsxe_fft_sin_drm_rom_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">[C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 182989)] Convert attribute name from syn_romstyle to PAP_RAM_STYLE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 232346)] Analyzing module ipsxe_fft_sin_rom_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 232479)] Analyzing module ipsxe_fft_sreg_v1_0 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/rtl/synplify/ipsxe_fft_core_v1_1_vpAll.vp(line number: 232697)] Analyzing module ipsxe_fft_twiddle_gen_v1_1 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 14)] Analyzing module ipsxe_fft_frame_chk (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 339)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 340)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 346)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 347)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 360)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 361)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 362)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_chk.v(line number: 363)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v(line number: 13)] Analyzing module ipsxe_fft_frame_gen (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v(line number: 258)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v(line number: 259)] Ignore 'system task' $fdisplay</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v(line number: 276)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_frame_gen.v(line number: 277)] Ignore 'system task' $fclose</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_onboard_top.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_onboard_top.v(line number: 13)] Analyzing module ipsxe_fft_onboard_top (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_sync_arstn.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/a2711/Desktop/logos_fft_demo_v2_lite/example_design/rtl/ipsxe_fft_sync_arstn.v(line number: 12)] Analyzing module ipsxe_fft_sync_arstn (library work)</data>
         </row>
         <row>
             <data message="4">Verilog-0001: Analyzing file C:/Users/a2711/Desktop/voice_loop_50/ipcore/PLL/PLL.v</data>
@@ -115,10 +628,10 @@
             <data message="4">Module &quot;voice_loop_test&quot; is set as top module.</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 7)] Elaborating module voice_loop_test</data>
+            <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 4)] Elaborating module voice_loop_test</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 44)] Elaborating instance u_pll</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 41)] Elaborating instance u_pll</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/ipcore/PLL/PLL.v(line number: 20)] Elaborating module PLL</data>
@@ -190,7 +703,7 @@
             <data message="5">Verilog-2021: [C:/Users/a2711/Desktop/voice_loop_50/ipcore/PLL/PLL.v(line number: 139)] Net dyn_duty4 in PLL(original module PLL) does not have a driver, tie it to 0</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 99)] Elaborating instance ES7243E_reg_config</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 96)] Elaborating instance ES7243E_reg_config</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/ES7243E_reg_config.v(line number: 6)] Elaborating module ES7243E_reg_config</data>
@@ -205,7 +718,7 @@
             <data message="5">Verilog-2048: [C:/Users/a2711/Desktop/voice_loop_50/source/i2c_com.v(line number: 35)] Zero-extending on all bits z values may cause simulation mismatch.</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 107)] Elaborating instance ES8156_reg_config</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 104)] Elaborating instance ES8156_reg_config</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/ES8156_reg_config.v(line number: 6)] Elaborating module ES8156_reg_config</data>
@@ -217,7 +730,7 @@
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/i2c_com.v(line number: 5)] Elaborating module i2c_com</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 126)] Elaborating instance ES7243_i2s_rx</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 123)] Elaborating instance ES7243_i2s_rx</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/pgr_i2s_rx.v(line number: 5)] Elaborating module pgr_i2s_rx</data>
@@ -227,7 +740,7 @@
     DATA_WIDTH = 32'b00000000000000000000000000010000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 140)] Elaborating instance ES8156_i2s_tx</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 139)] Elaborating instance ES8156_i2s_tx</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/pgr_i2s_tx.v(line number: 5)] Elaborating module pgr_i2s_tx</data>
@@ -237,7 +750,7 @@
     DATA_WIDTH = 32'b00000000000000000000000000010000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 155)] Elaborating instance i2s_loop</data>
+            <data message="4">Verilog-0004: [C:/Users/a2711/Desktop/voice_loop_50/source/voice_loop.v(line number: 154)] Elaborating instance i2s_loop</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [C:/Users/a2711/Desktop/voice_loop_50/source/i2s_loop.v(line number: 5)] Elaborating module i2s_loop</data>
@@ -245,6 +758,9 @@
         <row>
             <data message="4">Module instance {voice_loop_test/i2s_loop} parameter value:
     DATA_WIDTH = 32'b00000000000000000000000000010000</data>
+        </row>
+        <row>
+            <data message="4">Removed inst rdata[15:0] that is redundant to ldata[15:0].</data>
         </row>
         <row>
             <data message="4">FSM config_step_fsm[1:0] inferred.</data>

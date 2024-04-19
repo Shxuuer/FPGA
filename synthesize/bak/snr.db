@@ -368,19 +368,19 @@
                     <row>
                         <data>There are 58 clock pins with no clock driven</data>
                         <row>
-                            <data>ES7243E_reg_config/N237/CLKA</data>
+                            <data>ES7243E_reg_config/config_step_reg[0]/CLK</data>
                         </row>
                         <row>
-                            <data>ES7243E_reg_config/config_step_0/CLK</data>
+                            <data>ES7243E_reg_config/config_step_reg[1]/CLK</data>
                         </row>
                         <row>
-                            <data>ES7243E_reg_config/config_step_1/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES7243E_reg_config/config_step_2/CLK</data>
+                            <data>ES7243E_reg_config/config_step_reg[2]/CLK</data>
                         </row>
                         <row>
                             <data>ES7243E_reg_config/reg_conf_done_reg/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES7243E_reg_config/reg_data/CLKA</data>
                         </row>
                         <row>
                             <data>ES7243E_reg_config/reg_index[0]/CLK</data>
@@ -437,58 +437,58 @@
                             <data>ES7243E_reg_config/u_i2c_com/tr_end/CLK</data>
                         </row>
                         <row>
-                            <data>ES8156_reg_config/N189_doreg[0]/CLK</data>
+                            <data>ES8156_reg_config/config_step_reg[0]/CLK</data>
                         </row>
                         <row>
-                            <data>ES8156_reg_config/N189_doreg[1]/CLK</data>
+                            <data>ES8156_reg_config/config_step_reg[1]/CLK</data>
                         </row>
                         <row>
-                            <data>ES8156_reg_config/N189_doreg[2]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[3]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[4]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[5]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[6]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[7]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[8]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[9]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[10]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[11]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[12]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/N189_doreg[13]/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/config_step_0/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/config_step_1/CLK</data>
-                        </row>
-                        <row>
-                            <data>ES8156_reg_config/config_step_2/CLK</data>
+                            <data>ES8156_reg_config/config_step_reg[2]/CLK</data>
                         </row>
                         <row>
                             <data>ES8156_reg_config/reg_conf_done_reg/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[0]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[1]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[2]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[3]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[4]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[5]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[6]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[7]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[8]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[9]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[10]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[11]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[12]/CLK</data>
+                        </row>
+                        <row>
+                            <data>ES8156_reg_config/reg_data_doreg[13]/CLK</data>
                         </row>
                         <row>
                             <data>ES8156_reg_config/reg_index[0]/CLK</data>
@@ -545,7 +545,7 @@
                     <row>
                         <data>There are 1 nodes without an associated clock assignment.</data>
                         <row>
-                            <data>ES7243E_reg_config/clock_i2c/Q</data>
+                            <data>ES7243E_reg_config/clock_i2c/Q (net : clock_i2c)</data>
                         </row>
                     </row>
                     <row>
@@ -1454,7 +1454,7 @@
             <data>1</data>
             <data>17</data>
             <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[2]/D</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D</data>
             <data/>
             <data>voice_loop_test|es1_dsclk</data>
             <data>voice_loop_test|es1_dsclk</data>
@@ -1557,7 +1557,261 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I0 (GTP_LUT5)</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I3 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.269</data>
+                            <data>5.839</data>
+                            <data>f</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>5.839</data>
+                            <data> </data>
+                            <data object_valid="true">ES8156_i2s_tx/N15 [1]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D (GTP_DFF_C)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 504.500" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es1_dsclk (falling edge)</data>
+                            <data/>
+                            <data>500.000</data>
+                            <data>500.000</data>
+                            <data>f</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es1_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>500.000</data>
+                            <data>f</data>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>500.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.312</data>
+                            <data>501.312</data>
+                            <data>f</data>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>0.000</data>
+                            <data>501.312</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">ES8156_i2s_tx/N13/I (GTP_INV)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>0.000</data>
+                            <data>501.312</data>
+                            <data>r</data>
+                            <data object_valid="true">ES8156_i2s_tx/N13/Z (GTP_INV)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=16)</data>
+                            <data>3.204</data>
+                            <data>504.516</data>
+                            <data/>
+                            <data object_valid="true">ES8156_i2s_tx/N13</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>504.516</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>-0.050</data>
+                            <data>504.466</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Setup time</data>
+                            <data/>
+                            <data>0.034</data>
+                            <data>504.500</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
+            <data>498.661</data>
+            <data>1</data>
+            <data>17</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[2]/D</data>
+            <data/>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>rise-fall</data>
+            <data>0.101</data>
+            <data>4.415</data>
+            <data>4.516</data>
+            <data>0.000</data>
+            <data>500.000</data>
+            <data>1.424</data>
+            <data>0.598 (42.0%)</data>
+            <data>0.826 (58.0%)</data>
+            <general_container>
+                <data>Path #2: setup slack is 498.661(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 5.839" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es1_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es1_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.329</data>
+                            <data>4.744</data>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/Q (GTP_DFF_C)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=17)</data>
+                            <data>0.826</data>
+                            <data>5.570</data>
+                            <data> </data>
+                            <data file_id="../source/pgr_i2s_tx.v" line_number="26">ES8156_i2s_tx/ws_d [0]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I3 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1722,7 +1976,7 @@
             <data>0.598 (42.0%)</data>
             <data>0.826 (58.0%)</data>
             <general_container>
-                <data>Path #2: setup slack is 498.661(MET)</data>
+                <data>Path #3: setup slack is 498.661(MET)</data>
                 <table_container>
                     <table id="arrival" title="Data arrival time is 5.839" column_number="6">
                         <column_headers>
@@ -1811,7 +2065,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I0 (GTP_LUT5)</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I3 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1958,260 +2212,6 @@
             </general_container>
         </row>
         <row>
-            <data>498.661</data>
-            <data>1</data>
-            <data>17</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D</data>
-            <data/>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>rise-fall</data>
-            <data>0.101</data>
-            <data>4.415</data>
-            <data>4.516</data>
-            <data>0.000</data>
-            <data>500.000</data>
-            <data>1.424</data>
-            <data>0.598 (42.0%)</data>
-            <data>0.826 (58.0%)</data>
-            <general_container>
-                <data>Path #3: setup slack is 498.661(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 5.839" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es1_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es1_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=3)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.329</data>
-                            <data>4.744</data>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="29">ES8156_i2s_tx/ws_d[0]/Q (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=17)</data>
-                            <data>0.826</data>
-                            <data>5.570</data>
-                            <data> </data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="26">ES8156_i2s_tx/ws_d [0]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I0 (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.269</data>
-                            <data>5.839</data>
-                            <data>f</data>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/Z (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.839</data>
-                            <data> </data>
-                            <data object_valid="true">ES8156_i2s_tx/N15 [1]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/D (GTP_DFF_C)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 504.500" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es1_dsclk (falling edge)</data>
-                            <data/>
-                            <data>500.000</data>
-                            <data>500.000</data>
-                            <data>f</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es1_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>500.000</data>
-                            <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>500.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.312</data>
-                            <data>501.312</data>
-                            <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="23">es1_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=3)</data>
-                            <data>0.000</data>
-                            <data>501.312</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="23">nt_es1_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N13/I (GTP_INV)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>0.000</data>
-                            <data>501.312</data>
-                            <data>r</data>
-                            <data object_valid="true">ES8156_i2s_tx/N13/Z (GTP_INV)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=16)</data>
-                            <data>3.204</data>
-                            <data>504.516</data>
-                            <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N13</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/CLK (GTP_DFF_C)</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>504.516</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>-0.050</data>
-                            <data>504.466</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Setup time</data>
-                            <data/>
-                            <data>0.034</data>
-                            <data>504.500</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
             <data>996.257</data>
             <data>4</data>
             <data>4</data>
@@ -2295,7 +2295,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">N90_16/I2 (GTP_LUT4)</data>
+                            <data object_valid="true">N90_16/I0 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2311,7 +2311,7 @@
                             <data>0.464</data>
                             <data>2.441</data>
                             <data> </data>
-                            <data object_valid="true">_N1268</data>
+                            <data object_valid="true">_N1254</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2319,7 +2319,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">N90_19/I2 (GTP_LUT4)</data>
+                            <data object_valid="true">N90_19/I3 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2359,7 +2359,7 @@
                             <data>0.464</data>
                             <data>4.172</data>
                             <data> </data>
-                            <data object_valid="true">ES7243E_reg_config/N14</data>
+                            <data object_valid="true">ES7243E_reg_config/N14_rnmt</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2470,7 +2470,7 @@
             <data>1</data>
             <data>24</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="29">ES7243_i2s_rx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CE</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CE</data>
             <data/>
             <data>voice_loop_test|es0_dsclk</data>
             <data>voice_loop_test|es0_dsclk</data>
@@ -2573,7 +2573,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I1 (GTP_LUT2)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I0 (GTP_LUT2)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2597,7 +2597,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CE (GTP_DFF_CE)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CE (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -2665,7 +2665,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -2803,7 +2803,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I1 (GTP_LUT2)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I0 (GTP_LUT2)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -2930,7 +2930,7 @@
             <data>1</data>
             <data>24</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="29">ES7243_i2s_rx/ws_d[0]/CLK</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CE</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CE</data>
             <data/>
             <data>voice_loop_test|es0_dsclk</data>
             <data>voice_loop_test|es0_dsclk</data>
@@ -3033,7 +3033,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I1 (GTP_LUT2)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="37">ES7243_i2s_rx/N15/I0 (GTP_LUT2)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -3057,7 +3057,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CE (GTP_DFF_CE)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CE (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -3125,7 +3125,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[2]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -3750,212 +3750,6 @@
             <data>0.829</data>
             <data>0</data>
             <data>2</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK</data>
-            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D</data>
-            <data/>
-            <data>voice_loop_test|es0_dsclk</data>
-            <data>voice_loop_test|es0_dsclk</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>4.415</data>
-            <data>4.415</data>
-            <data>0.000</data>
-            <data>0.000</data>
-            <data>0.876</data>
-            <data>0.323 (36.9%)</data>
-            <data>0.553 (63.1%)</data>
-            <general_container>
-                <data>Path #2: hold slack is 0.829(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 5.291" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es0_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=73)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.323</data>
-                            <data>4.738</data>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/Q (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.553</data>
-                            <data>5.291</data>
-                            <data> </data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="21">ES7243_i2s_rx/sr [1]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>f</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D (GTP_DFF_CE)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 4.462" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>es0_dsclk</data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data>td</data>
-                            <data>1.211</data>
-                            <data>1.211</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=73)</data>
-                            <data>3.204</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CLK (GTP_DFF_CE)</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>4.415</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Hold time</data>
-                            <data/>
-                            <data>0.047</data>
-                            <data>4.462</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>0.829</data>
-            <data>0</data>
-            <data>2</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[0]/CLK</data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[0]/D</data>
             <data/>
@@ -3971,7 +3765,7 @@
             <data>0.323 (36.9%)</data>
             <data>0.553 (63.1%)</data>
             <general_container>
-                <data>Path #3: hold slack is 0.829(MET)</data>
+                <data>Path #2: hold slack is 0.829(MET)</data>
                 <table_container>
                     <table id="arrival" title="Data arrival time is 5.291" column_number="6">
                         <column_headers>
@@ -4159,6 +3953,212 @@
             </general_container>
         </row>
         <row>
+            <data>0.829</data>
+            <data>0</data>
+            <data>2</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK</data>
+            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D</data>
+            <data/>
+            <data>voice_loop_test|es0_dsclk</data>
+            <data>voice_loop_test|es0_dsclk</data>
+            <data>rise-rise</data>
+            <data>0.000</data>
+            <data>4.415</data>
+            <data>4.415</data>
+            <data>0.000</data>
+            <data>0.000</data>
+            <data>0.876</data>
+            <data>0.323 (36.9%)</data>
+            <data>0.553 (63.1%)</data>
+            <general_container>
+                <data>Path #3: hold slack is 0.829(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 5.291" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es0_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=73)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/CLK (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.323</data>
+                            <data>4.738</data>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="51">ES7243_i2s_rx/sr[1]/Q (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.553</data>
+                            <data>5.291</data>
+                            <data> </data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="21">ES7243_i2s_rx/sr [1]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>f</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/D (GTP_DFF_CE)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 4.462" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock voice_loop_test|es0_dsclk (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>es0_dsclk</data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk (port)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/I (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data>td</data>
+                            <data>1.211</data>
+                            <data>1.211</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="15">es0_dsclk_ibuf/O (GTP_INBUF)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=73)</data>
+                            <data>3.204</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="15">nt_es0_dsclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/pgr_i2s_rx.v" line_number="61">ES7243_i2s_rx/data[1]/CLK (GTP_DFF_CE)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>4.415</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Hold time</data>
+                            <data/>
+                            <data>0.047</data>
+                            <data>4.462</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
+        <row>
             <data>1.073</data>
             <data>1</data>
             <data>1</data>
@@ -4290,7 +4290,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I1 (GTP_LUT5)</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[1]/I2 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -4568,7 +4568,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I1 (GTP_LUT5)</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[2]/I2 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -4846,7 +4846,7 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I1 (GTP_LUT5)</data>
+                            <data object_valid="true">ES8156_i2s_tx/N15_7[3]/I2 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5092,7 +5092,7 @@
                             <data>0.000</data>
                             <data>1.866</data>
                             <data> </data>
-                            <data file_id="../source/ES7243E_reg_config.v" line_number="40">ES7243E_reg_config/N321 [0]</data>
+                            <data file_id="../source/ES7243E_reg_config.v" line_number="40">ES7243E_reg_config/N322 [0]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -5178,188 +5178,6 @@
             <data>1.118</data>
             <data>1</data>
             <data>2</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK</data>
-            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D</data>
-            <data/>
-            <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
-            <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
-            <data>rise-rise</data>
-            <data>0.000</data>
-            <data>0.730</data>
-            <data>0.730</data>
-            <data>0.000</data>
-            <data>0.000</data>
-            <data>1.157</data>
-            <data>0.604 (52.2%)</data>
-            <data>0.553 (47.8%)</data>
-            <general_container>
-                <data>Path #8: hold slack is 1.118(MET)</data>
-                <table_container>
-                    <table id="arrival" title="Data arrival time is 1.887" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKOUT0 (GTP_PLL_E3)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=26)</data>
-                            <data>0.730</data>
-                            <data>0.730</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>tco</data>
-                            <data>0.323</data>
-                            <data>1.053</data>
-                            <data>f</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/Q (GTP_DFF_R)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=2)</data>
-                            <data>0.553</data>
-                            <data>1.606</data>
-                            <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="83">rstn_1ms[4]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/I1 (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.281</data>
-                            <data>1.887</data>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/Z (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>1.887</data>
-                            <data> </data>
-                            <data file_id="../source/voice_loop.v" line_number="93">N32[4]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D (GTP_DFF_R)</data>
-                        </row>
-                    </table>
-                </table_container>
-                <table_container>
-                    <table id="require" title="Data required time is 0.769" column_number="6">
-                        <column_headers>
-                            <data>Location</data>
-                            <data>Delay Type</data>
-                            <data>Incr</data>
-                            <data>Path</data>
-                            <data>Trans</data>
-                            <data>Logical Resource</data>
-                        </column_headers>
-                        <row>
-                            <data>Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data/>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data></data>
-                            <data>0.000</data>
-                            <data>0.000</data>
-                            <data>r</data>
-                            <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKOUT0 (GTP_PLL_E3)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=26)</data>
-                            <data>0.730</data>
-                            <data>0.730</data>
-                            <data/>
-                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
-                        </row>
-                        <row>
-                            <data></data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
-                        </row>
-                        <row>
-                            <data>clock pessimism</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.730</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>clock uncertainty</data>
-                            <data/>
-                            <data>0.000</data>
-                            <data>0.730</data>
-                            <data/>
-                            <data/>
-                        </row>
-                        <row>
-                            <data>Hold time</data>
-                            <data/>
-                            <data>0.039</data>
-                            <data>0.769</data>
-                            <data/>
-                            <data/>
-                        </row>
-                    </table>
-                </table_container>
-            </general_container>
-        </row>
-        <row>
-            <data>1.118</data>
-            <data>1</data>
-            <data>2</data>
             <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/CLK</data>
             <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[3]/D</data>
             <data/>
@@ -5375,7 +5193,7 @@
             <data>0.604 (52.2%)</data>
             <data>0.553 (47.8%)</data>
             <general_container>
-                <data>Path #9: hold slack is 1.118(MET)</data>
+                <data>Path #8: hold slack is 1.118(MET)</data>
                 <table_container>
                     <table id="arrival" title="Data arrival time is 1.887" column_number="6">
                         <column_headers>
@@ -5538,6 +5356,188 @@
                 </table_container>
             </general_container>
         </row>
+        <row>
+            <data>1.118</data>
+            <data>1</data>
+            <data>2</data>
+            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK</data>
+            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D</data>
+            <data/>
+            <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
+            <data>PLL|u_pll/u_pll_e3/CLKOUT0</data>
+            <data>rise-rise</data>
+            <data>0.000</data>
+            <data>0.730</data>
+            <data>0.730</data>
+            <data>0.000</data>
+            <data>0.000</data>
+            <data>1.157</data>
+            <data>0.604 (52.2%)</data>
+            <data>0.553 (47.8%)</data>
+            <general_container>
+                <data>Path #9: hold slack is 1.118(MET)</data>
+                <table_container>
+                    <table id="arrival" title="Data arrival time is 1.887" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKOUT0 (GTP_PLL_E3)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=26)</data>
+                            <data>0.730</data>
+                            <data>0.730</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>tco</data>
+                            <data>0.323</data>
+                            <data>1.053</data>
+                            <data>f</data>
+                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/Q (GTP_DFF_R)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=2)</data>
+                            <data>0.553</data>
+                            <data>1.606</data>
+                            <data> </data>
+                            <data file_id="../source/voice_loop.v" line_number="83">rstn_1ms[4]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/I1 (GTP_LUT5CARRY)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.281</data>
+                            <data>1.887</data>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="93">N32_0_4/Z (GTP_LUT5CARRY)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.000</data>
+                            <data>1.887</data>
+                            <data> </data>
+                            <data file_id="../source/voice_loop.v" line_number="93">N32[4]</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/D (GTP_DFF_R)</data>
+                        </row>
+                    </table>
+                </table_container>
+                <table_container>
+                    <table id="require" title="Data required time is 0.769" column_number="6">
+                        <column_headers>
+                            <data>Location</data>
+                            <data>Delay Type</data>
+                            <data>Incr</data>
+                            <data>Path</data>
+                            <data>Trans</data>
+                            <data>Logical Resource</data>
+                        </column_headers>
+                        <row>
+                            <data>Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data/>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data></data>
+                            <data>0.000</data>
+                            <data>0.000</data>
+                            <data>r</data>
+                            <data file_id="../ipcore/PLL/PLL.v" line_number="230">u_pll/u_pll_e3/CLKOUT0 (GTP_PLL_E3)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=26)</data>
+                            <data>0.730</data>
+                            <data>0.730</data>
+                            <data/>
+                            <data file_id="../source/voice_loop.v" line_number="20">nt_es1_mclk</data>
+                        </row>
+                        <row>
+                            <data></data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data>r</data>
+                            <data file_id="../source/voice_loop.v" line_number="84">rstn_1ms[4]/CLK (GTP_DFF_R)</data>
+                        </row>
+                        <row>
+                            <data>clock pessimism</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.730</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>clock uncertainty</data>
+                            <data/>
+                            <data>0.000</data>
+                            <data>0.730</data>
+                            <data/>
+                            <data/>
+                        </row>
+                        <row>
+                            <data>Hold time</data>
+                            <data/>
+                            <data>0.039</data>
+                            <data>0.769</data>
+                            <data/>
+                            <data/>
+                        </row>
+                    </table>
+                </table_container>
+            </general_container>
+        </row>
     </table>
     <table id="synthesize_report_timing_path_mpw" title="Minimum Pulse Width Path Summary" column_number="7">
         <column_headers>
@@ -5580,35 +5580,8 @@
             <data>499.380</data>
             <data>500.000</data>
             <data>0.620</data>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>Low Pulse Width</data>
-            <data></data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK</data>
-        </row>
-        <row>
-            <data>499.380</data>
-            <data>500.000</data>
-            <data>0.620</data>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>High Pulse Width</data>
-            <data></data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK</data>
-        </row>
-        <row>
-            <data>499.380</data>
-            <data>500.000</data>
-            <data>0.620</data>
-            <data>voice_loop_test|es1_dsclk</data>
-            <data>High Pulse Width</data>
-            <data></data>
-            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/CLK</data>
-        </row>
-        <row>
-            <data>499.380</data>
-            <data>500.000</data>
-            <data>0.620</data>
             <data>voice_loop_test|es0_dsclk</data>
-            <data>High Pulse Width</data>
+            <data>Low Pulse Width</data>
             <data></data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="39">ES7243_i2s_rx/cnt[0]/CLK</data>
         </row>
@@ -5617,7 +5590,7 @@
             <data>500.000</data>
             <data>0.620</data>
             <data>voice_loop_test|es0_dsclk</data>
-            <data>Low Pulse Width</data>
+            <data>High Pulse Width</data>
             <data></data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="39">ES7243_i2s_rx/cnt[0]/CLK</data>
         </row>
@@ -5629,6 +5602,33 @@
             <data>High Pulse Width</data>
             <data></data>
             <data file_id="../source/pgr_i2s_rx.v" line_number="39">ES7243_i2s_rx/cnt[1]/CLK</data>
+        </row>
+        <row>
+            <data>499.380</data>
+            <data>500.000</data>
+            <data>0.620</data>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>High Pulse Width</data>
+            <data></data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK</data>
+        </row>
+        <row>
+            <data>499.380</data>
+            <data>500.000</data>
+            <data>0.620</data>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>Low Pulse Width</data>
+            <data></data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[0]/CLK</data>
+        </row>
+        <row>
+            <data>499.380</data>
+            <data>500.000</data>
+            <data>0.620</data>
+            <data>voice_loop_test|es1_dsclk</data>
+            <data>High Pulse Width</data>
+            <data></data>
+            <data file_id="../source/pgr_i2s_tx.v" line_number="45">ES8156_i2s_tx/sr[1]/CLK</data>
         </row>
     </table>
     <table id="synthesize_resource_usage" title="GTP Usage" column_number="2">
@@ -5756,7 +5756,7 @@ Total I/O ports = 20 of 296 (6.76%)
             <data>File Type</data>
         </column_headers>
         <row>
-            <data>D:/admin/desktop/voice_loop_50/voice.fdc</data>
+            <data>C:/Users/a2711/Desktop/voice_loop_50/voice.fdc</data>
             <data>fdc</data>
         </row>
     </table>
@@ -5771,28 +5771,28 @@ Total I/O ports = 20 of 296 (6.76%)
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:2s</data>
-            <data>0h:0m:2s</data>
-            <data>0h:0m:3s</data>
-            <data>270</data>
+            <data>0h:0m:6s</data>
+            <data>0h:0m:6s</data>
+            <data>0h:0m:13s</data>
+            <data>332</data>
             <data>WINDOWS 10 x86_64</data>
-            <data>13th Gen Intel(R) Core(TM) i5-13400</data>
+            <data>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</data>
             <data>16</data>
         </row>
     </table>
     <table id="synthesize_messages" title="Synthesize Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/voice.fdc(line number: 37)] | Port es1_sdout has been placed at location AB5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/voice.fdc(line number: 37)] | Port es1_sdout has been placed at location AB5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/voice.fdc(line number: 87)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/voice.fdc(line number: 87)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/voice.fdc(line number: 102)] | Port key has been placed at location K18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/voice.fdc(line number: 102)] | Port key has been placed at location K18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [D:/admin/desktop/voice_loop_50/voice.fdc(line number: 107)] | Port lin_test has been placed at location Y13, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/a2711/Desktop/voice_loop_50/voice.fdc(line number: 107)] | Port lin_test has been placed at location Y13, whose type is share pin.</data>
         </row>
         <row>
             <data message="6">SDC-2025: Clock source 'n:sys_clk' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
@@ -5816,16 +5816,13 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Encoding type of FSM 'config_step_fsm[1:0]' is: onehot.</data>
         </row>
         <row>
-            <data message="4">[D:/admin/desktop/voice_loop_50/source/ES7243E_reg_config.v(line number:49)] The user initial state for regs on FSM config_step_fsm[1:0] is 00 and be encoded 001.</data>
-        </row>
-        <row>
             <data message="4">Encoding table of FSM 'config_step_fsm[1:0]':</data>
         </row>
         <row>
             <data message="4">from  ES7243E_reg_config/config_step[1] ES7243E_reg_config/config_step[0]</data>
         </row>
         <row>
-            <data message="4">to  ES7243E_reg_config/config_step_2 ES7243E_reg_config/config_step_1 ES7243E_reg_config/config_step_0</data>
+            <data message="4">to  ES7243E_reg_config/config_step_reg[2] ES7243E_reg_config/config_step_reg[1] ES7243E_reg_config/config_step_reg[0]</data>
         </row>
         <row>
             <data message="4">00 =&gt; 001</data>
@@ -5840,16 +5837,13 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Encoding type of FSM 'config_step_fsm[1:0]' is: onehot.</data>
         </row>
         <row>
-            <data message="4">[D:/admin/desktop/voice_loop_50/source/ES8156_reg_config.v(line number:48)] The user initial state for regs on FSM config_step_fsm[1:0] is 00 and be encoded 001.</data>
-        </row>
-        <row>
             <data message="4">Encoding table of FSM 'config_step_fsm[1:0]':</data>
         </row>
         <row>
             <data message="4">from  ES8156_reg_config/config_step[1] ES8156_reg_config/config_step[0]</data>
         </row>
         <row>
-            <data message="4">to  ES8156_reg_config/config_step_2 ES8156_reg_config/config_step_1 ES8156_reg_config/config_step_0</data>
+            <data message="4">to  ES8156_reg_config/config_step_reg[2] ES8156_reg_config/config_step_reg[1] ES8156_reg_config/config_step_reg[0]</data>
         </row>
         <row>
             <data message="4">00 =&gt; 001</data>
@@ -5861,10 +5855,10 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">10 =&gt; 100</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on ES7243E_reg_config/N254 (bmsREDOR).</data>
+            <data message="4">Constant propagation done on ES7243E_reg_config/N255 (bmsREDOR).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on ES8156_reg_config/N206 (bmsREDOR).</data>
+            <data message="4">Constant propagation done on ES8156_reg_config/N207 (bmsREDOR).</data>
         </row>
         <row>
             <data message="5">Removed bmsWIDEDFFRSE inst i2c_data[23:0] at 0 that is stuck at constant 0.</data>
@@ -5915,10 +5909,10 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Removed inst ES8156_reg_config/clock_cnt[3:0] which is redundant to ES7243E_reg_config/clock_cnt[3:0] (type bmsWIDEDFFRSE)</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'ES8156_reg_config/N189_doreg[14]' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'ES8156_reg_config/reg_data_doreg[14]' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'ES8156_reg_config/N189_doreg[15]' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'ES8156_reg_config/reg_data_doreg[15]' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'cnt_12M[17]' of 'bmsWIDEDFFRSE' unit is dangling and will be cleaned.</data>
@@ -5939,16 +5933,25 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="5">Unable to honor max fanout constraint for gtp_inv driven net N14_1</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[11]'.</data>
+            <data message="5">prevent name conflict by renaming net ES7243E_reg_config/N14 to ES7243E_reg_config/N14_rnmt</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[10]'.</data>
+            <data message="5">prevent name conflict by renaming net ES7243E_reg_config/u_i2c_com/reg_sdat to ES7243E_reg_config/u_i2c_com/reg_sdat_rnmt</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[9]'.</data>
+            <data message="5">prevent name conflict by renaming net ES8156_reg_config/u_i2c_com/reg_sdat to ES8156_reg_config/u_i2c_com/reg_sdat_rnmt</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[8]'.</data>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[0]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[23]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[22]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[21]'.</data>
         </row>
         <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3'.</data>
@@ -6014,6 +6017,45 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND25'.</data>
         </row>
         <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[20]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[19]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[18]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[17]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[16]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[15]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[14]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[13]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[12]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[11]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[10]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[9]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[8]'.</data>
+        </row>
+        <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[7]'.</data>
         </row>
         <row>
@@ -6059,52 +6101,13 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[3]'.</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[6]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[5]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[4]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[3]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[2]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[1]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[0]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[1]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[0]'.</data>
-        </row>
-        <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[4]'.</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[8]'.</data>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[2]'.</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[7]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[13]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[12]'.</data>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[1]'.</data>
         </row>
         <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND22[0]'.</data>
@@ -6215,45 +6218,6 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND23[15]'.</data>
         </row>
         <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[2]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[1]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[0]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[23]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[22]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[21]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[20]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[19]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[18]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[17]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[16]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[15]'.</data>
-        </row>
-        <row>
-            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[14]'.</data>
-        </row>
-        <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[13]'.</data>
         </row>
         <row>
@@ -6317,7 +6281,46 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[3]'.</data>
         </row>
         <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[4]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[3]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[2]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[1]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[0]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[1]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND2[0]'.</data>
+        </row>
+        <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4[4]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[5]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[8]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND4'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[7]'.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND5[6]'.</data>
         </row>
         <row>
             <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'ND3[14]'.</data>
@@ -6434,19 +6437,19 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="6">STA-3009: The clock voice_loop_test|sys_clk is not connected to any clock endpoints,it will be treated as a normal port or pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/N237/CLKA' (GTP_DRM9K.CLKA) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_reg[0]/CLK' (GTP_DFF_SE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_0/CLK' (GTP_DFF_SE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_reg[1]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_1/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_2/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/config_step_reg[2]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/reg_conf_done_reg/CLK' (GTP_DFF_R.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/reg_data/CLKA' (GTP_DRM9K.CLKA) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/reg_index[0]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -6503,58 +6506,58 @@ Total I/O ports = 20 of 296 (6.76%)
             <data message="5">STA-3011: Clock pin 'ES7243E_reg_config/u_i2c_com/tr_end/CLK' (GTP_DFF_R.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[0]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_reg[0]/CLK' (GTP_DFF_SE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[1]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_reg[1]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[2]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[3]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[4]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[5]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[6]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[7]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[8]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[9]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[10]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[11]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[12]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/N189_doreg[13]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_0/CLK' (GTP_DFF_SE.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_1/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
-        </row>
-        <row>
-            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_2/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/config_step_reg[2]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_conf_done_reg/CLK' (GTP_DFF_R.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[0]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[1]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[2]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[3]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[4]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[5]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[6]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[7]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[8]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[9]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[10]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[11]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[12]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
+        </row>
+        <row>
+            <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_data_doreg[13]/CLK' (GTP_DFF_E.CLK) has no clock, timing propagation is disabled at the pin.</data>
         </row>
         <row>
             <data message="5">STA-3011: Clock pin 'ES8156_reg_config/reg_index[0]/CLK' (GTP_DFF_RE.CLK) has no clock, timing propagation is disabled at the pin.</data>
@@ -6711,6 +6714,10 @@ Total I/O ports = 20 of 296 (6.76%)
                         <data>true</data>
                     </row>
                     <row>
+                        <data>Pipelining</data>
+                        <data>true</data>
+                    </row>
+                    <row>
                         <data>Retiming</data>
                         <data>false</data>
                     </row>
@@ -6734,10 +6741,6 @@ Total I/O ports = 20 of 296 (6.76%)
                     <row>
                         <data>Number of Paths per Endpoint (-nworst)</data>
                         <data>1</data>
-                    </row>
-                    <row>
-                        <data>Report Paths with Logic levels &gt;</data>
-                        <data>-1</data>
                     </row>
                 </table>
             </table_container>

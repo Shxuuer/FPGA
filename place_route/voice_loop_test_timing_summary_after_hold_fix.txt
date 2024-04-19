@@ -7,16 +7,16 @@ Setup Summary(Slow Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                   996.725       0.000              0            913
+                                                   996.913       0.000              0            915
  voice_loop_test|es1_dsclk
                         voice_loop_test|es1_dsclk
-                                                   498.822       0.000              0             48
+                                                   498.755       0.000              0             48
  voice_loop_test|es0_dsclk
                         voice_loop_test|es0_dsclk
-                                                   997.555       0.000              0            186
- DebugCore_JCLK         DebugCore_JCLK              23.922       0.000              0            626
- DebugCore_CAPTURE      DebugCore_JCLK              21.072       0.000              0            133
- DebugCore_JCLK         DebugCore_CAPTURE           47.705       0.000              0             16
+                                                   997.466       0.000              0            152
+ DebugCore_JCLK         DebugCore_JCLK              23.571       0.000              0            640
+ DebugCore_CAPTURE      DebugCore_JCLK              22.255       0.000              0            116
+ DebugCore_JCLK         DebugCore_CAPTURE           45.709       0.000              0             16
 ====================================================================================================
 
 Hold Summary(Slow Corner):
@@ -26,16 +26,16 @@ Hold Summary(Slow Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                     0.339       0.000              0            913
+                                                     0.339       0.000              0            915
  voice_loop_test|es1_dsclk
                         voice_loop_test|es1_dsclk
-                                                     0.365       0.000              0             48
+                                                     0.393       0.000              0             48
  voice_loop_test|es0_dsclk
                         voice_loop_test|es0_dsclk
-                                                     0.341       0.000              0            186
- DebugCore_JCLK         DebugCore_JCLK               0.341       0.000              0            626
- DebugCore_CAPTURE      DebugCore_JCLK              24.757       0.000              0            133
- DebugCore_JCLK         DebugCore_CAPTURE            0.497       0.000              0             16
+                                                     0.352       0.000              0            152
+ DebugCore_JCLK         DebugCore_JCLK               0.313       0.000              0            640
+ DebugCore_CAPTURE      DebugCore_JCLK              22.332       0.000              0            116
+ DebugCore_JCLK         DebugCore_CAPTURE            2.599       0.000              0             16
 ====================================================================================================
 
 Recovery Summary(Slow Corner):
@@ -45,7 +45,7 @@ Recovery Summary(Slow Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                   997.379       0.000              0            298
+                                                   997.715       0.000              0            298
 ====================================================================================================
 
 Removal Summary(Slow Corner):
@@ -55,7 +55,7 @@ Removal Summary(Slow Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                     0.550       0.000              0            298
+                                                     0.609       0.000              0            298
 ====================================================================================================
 
 Minimum Pulse Width Summary(Slow Corner):
@@ -72,16 +72,16 @@ Setup Summary(Fast Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                   997.610       0.000              0            913
+                                                   997.799       0.000              0            915
  voice_loop_test|es1_dsclk
                         voice_loop_test|es1_dsclk
-                                                   499.164       0.000              0             48
+                                                   499.125       0.000              0             48
  voice_loop_test|es0_dsclk
                         voice_loop_test|es0_dsclk
-                                                   998.213       0.000              0            186
- DebugCore_JCLK         DebugCore_JCLK              24.216       0.000              0            626
- DebugCore_CAPTURE      DebugCore_JCLK              22.337       0.000              0            133
- DebugCore_JCLK         DebugCore_CAPTURE           48.252       0.000              0             16
+                                                   998.163       0.000              0            152
+ DebugCore_JCLK         DebugCore_JCLK              23.984       0.000              0            640
+ DebugCore_CAPTURE      DebugCore_JCLK              22.809       0.000              0            116
+ DebugCore_JCLK         DebugCore_CAPTURE           47.138       0.000              0             16
 ====================================================================================================
 
 Hold Summary(Fast Corner):
@@ -91,16 +91,16 @@ Hold Summary(Fast Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                     0.257       0.000              0            913
+                                                     0.256       0.000              0            915
  voice_loop_test|es1_dsclk
                         voice_loop_test|es1_dsclk
-                                                     0.285       0.000              0             48
+                                                     0.308       0.000              0             48
  voice_loop_test|es0_dsclk
                         voice_loop_test|es0_dsclk
-                                                     0.265       0.000              0            186
- DebugCore_JCLK         DebugCore_JCLK               0.265       0.000              0            626
- DebugCore_CAPTURE      DebugCore_JCLK              24.973       0.000              0            133
- DebugCore_JCLK         DebugCore_CAPTURE            0.596       0.000              0             16
+                                                     0.268       0.000              0            152
+ DebugCore_JCLK         DebugCore_JCLK               0.251       0.000              0            640
+ DebugCore_CAPTURE      DebugCore_JCLK              23.570       0.000              0            116
+ DebugCore_JCLK         DebugCore_CAPTURE            1.778       0.000              0             16
 ====================================================================================================
 
 Recovery Summary(Fast Corner):
@@ -110,7 +110,7 @@ Recovery Summary(Fast Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                   998.058       0.000              0            298
+                                                   998.303       0.000              0            298
 ====================================================================================================
 
 Removal Summary(Fast Corner):
@@ -120,7 +120,7 @@ Removal Summary(Fast Corner):
 ----------------------------------------------------------------------------------------------------
  PLL|u_pll/u_pll_e3/CLKOUT0
                         PLL|u_pll/u_pll_e3/CLKOUT0
-                                                     0.431       0.000              0            298
+                                                     0.451       0.000              0            298
 ====================================================================================================
 
 Minimum Pulse Width Summary(Fast Corner):
